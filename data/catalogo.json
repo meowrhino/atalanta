@@ -1,0 +1,1507 @@
+{
+  "catalogo": [
+    {
+      "numero": 1,
+      "nombre": "El copartícipe secreto",
+      "autor": "Joseph Conrad",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 2,
+      "nombre": "Sin mañana",
+      "autor": "Vivant Denon",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 3,
+      "nombre": "La historia de Genji I",
+      "autor": "Murasaki Shikibu",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 4,
+      "nombre": "El fuego secreto de los filósofos",
+      "autor": "Patrick Harpur",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 5,
+      "nombre": "Amor y Psique",
+      "autor": "Apuleyo",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 6,
+      "nombre": "El Monte Análogo",
+      "autor": "René Daumal",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 7,
+      "nombre": "La voz maligna",
+      "autor": "Vernon Lee",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 8,
+      "nombre": "En los oscuros lugares del saber",
+      "autor": "Peter Kingsley",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 9,
+      "nombre": "La historia de Genji II",
+      "autor": "Murasaki Shikibu",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 10,
+      "nombre": "Yijing. El libro de los cambios",
+      "autor": "",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 11,
+      "nombre": "Los ojos de Davidson",
+      "autor": "H. G. Wells",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 12,
+      "nombre": "La Villa de los Misterios",
+      "autor": "Linda Fierz-David",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 13,
+      "nombre": "El hombre que amaba las islas",
+      "autor": "D. H. Lawrence",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 14,
+      "nombre": "Realidad daimónica",
+      "autor": "Patrick Harpur",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 15,
+      "nombre": "La reliquia viviente",
+      "autor": "Iván Turguéniev",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 16,
+      "nombre": "Pan y la pesadilla",
+      "autor": "James Hillman",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 17,
+      "nombre": "La diligencia inglesa",
+      "autor": "Thomas de Quincey",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 18,
+      "nombre": "El gran duque de Alba",
+      "autor": "William S. Maltby",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 19,
+      "nombre": "El arte de conversar",
+      "autor": "Oscar Wilde",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 20,
+      "nombre": "El mundo del príncipe resplandeciente",
+      "autor": "Ivan Morris",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 21,
+      "nombre": "La fuga de Atalanta",
+      "autor": "Michael Maier",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 22,
+      "nombre": "Sueños y ensoñaciones de una dama",
+      "autor": "Dama Sarashina",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 23,
+      "nombre": "Cosmos y Psique",
+      "autor": "Richard Tarnas",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 24,
+      "nombre": "Universos paralelos",
+      "autor": "Michio Kaku",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 25,
+      "nombre": "Hombres salmonela en el planeta porno",
+      "autor": "Yasutaka Tsutsui",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 26,
+      "nombre": "La pasión de la mente occidental",
+      "autor": "Richard Tarnas",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 27,
+      "nombre": "El terremoto de Chile",
+      "autor": "Heinrich von Kleist",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 28,
+      "nombre": "Filosofía antigua, misterios y magia",
+      "autor": "Peter Kingsley",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 29,
+      "nombre": "Viaje a la semilla",
+      "autor": "Alejo Carpentier",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 30,
+      "nombre": "Tres novelas en imágenes",
+      "autor": "Max Ernst",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 31,
+      "nombre": "Emily Brontë",
+      "autor": "Winifred Gérin",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 32,
+      "nombre": "Los cosacos",
+      "autor": "Lev Tolstói",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 33,
+      "nombre": "Armonía de las esferas",
+      "autor": "Joscelyn Godwin (ed.)",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 34,
+      "nombre": "Dioses y mitos de la India",
+      "autor": "Alain Daniélou",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 35,
+      "nombre": "Los héroes griegos",
+      "autor": "Karl Kerényi",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 36,
+      "nombre": "Estoy desnudo",
+      "autor": "Yasutaka Tsutsui",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 37,
+      "nombre": "El mito polar",
+      "autor": "Joscelyn Godwin",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 38,
+      "nombre": "Escolios a un texto implícito",
+      "autor": "Nicolás Gómez Dávila",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 39,
+      "nombre": "Historia de mi vida. Tomo I",
+      "autor": "Giacomo Casanova",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 40,
+      "nombre": "Historia de mi vida. Tomo II",
+      "autor": "Giacomo Casanova",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 41,
+      "nombre": "Aroma de alcanfor",
+      "autor": "Naiyer Masud",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 42,
+      "nombre": "El mito de Osiris",
+      "autor": "Jules Cashford",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 43,
+      "nombre": "Textos",
+      "autor": "Nicolás Gómez Dávila",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 44,
+      "nombre": "En los oscuros lugares del saber",
+      "autor": "Peter Kingsley",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 45,
+      "nombre": "El fuego secreto de los filósofos",
+      "autor": "Patrick Harpur",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 46,
+      "nombre": "Algo elemental",
+      "autor": "Eliot Weinberger",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 47,
+      "nombre": "Rāmāyaṇa",
+      "autor": "Vālmīki",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 48,
+      "nombre": "Vampiros",
+      "autor": "VV. AA.",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 49,
+      "nombre": "Jin Ping Mei. El Erudito de las Carcajadas",
+      "autor": "",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 50,
+      "nombre": "El mundo bajo los párpados",
+      "autor": "Jacobo Siruela",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 51,
+      "nombre": "El mar de iguanas",
+      "autor": "Salvador Elizondo",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 52,
+      "nombre": "Mis aventuras con monjas",
+      "autor": "Giacomo Casanova",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 53,
+      "nombre": "Cuentos de lo extraño",
+      "autor": "Robert Aickman",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 54,
+      "nombre": "Origen y presente",
+      "autor": "Jean Gebser",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 55,
+      "nombre": "Érase una vez una mujer...",
+      "autor": "Liudmila Petrushévskaia",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 56,
+      "nombre": "Paprika",
+      "autor": "Yasutaka Tsutsui",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 57,
+      "nombre": "Cuaderno de noche",
+      "autor": "Inka Martí",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 58,
+      "nombre": "Aventuras en Venecia",
+      "autor": "Giacomo Casanova",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 59,
+      "nombre": "Vidas de Pitágoras",
+      "autor": "David Hernández de la Fuente",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 60,
+      "nombre": "Socotra, la isla de los genios",
+      "autor": "Jordi Esteva",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 61,
+      "nombre": "Jin Ping Mei II. El Erudito de las Carcajadas",
+      "autor": "",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 62,
+      "nombre": "Mientras los dioses juegan",
+      "autor": "Alain Daniélou",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 63,
+      "nombre": "La noche",
+      "autor": "Francisco Tario",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 64,
+      "nombre": "Consciencia más allá de la vida",
+      "autor": "Pim van Lommel",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 65,
+      "nombre": "Decadencia y caída del Imperio Romano I",
+      "autor": "E. Gibbon",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 66,
+      "nombre": "El mundo en el que vivo",
+      "autor": "Helen Keller",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 67,
+      "nombre": "Rudolf Steiner",
+      "autor": "Gary Lachman",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 68,
+      "nombre": "La casa inundada",
+      "autor": "Felisberto Hernández",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 69,
+      "nombre": "Imagen del mito",
+      "autor": "Joseph Campbell",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 70,
+      "nombre": "Decadencia y caída del Imperio Romano II",
+      "autor": "E. Gibbon",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 71,
+      "nombre": "Cuentos de hadas",
+      "autor": "George MacDonald",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 72,
+      "nombre": "El Palacio de Liria",
+      "autor": "VV. AA.",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 73,
+      "nombre": "La pérdida del reino",
+      "autor": "José Bianco",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 74,
+      "nombre": "La tradición oculta del alma",
+      "autor": "Patrick Harpur",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 75,
+      "nombre": "Los últimos años de Casanova",
+      "autor": "Joseph Le Gras & Raoul Veze",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 76,
+      "nombre": "Ocho ensayos sobre William Blake",
+      "autor": "Kathleen Raine",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 77,
+      "nombre": "Las extensiones interiores del espacio exterior",
+      "autor": "J. Campbell",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 78,
+      "nombre": "La historia secreta de la conciencia",
+      "autor": "Gary Lachman",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 79,
+      "nombre": "Antología universal del relato fantástico",
+      "autor": "VV. AA.",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 80,
+      "nombre": "Libros proféticos I",
+      "autor": "William Blake",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 81,
+      "nombre": "Sendas de Oku",
+      "autor": "Matsuo Basho",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 82,
+      "nombre": "Manual de filosofía portátil",
+      "autor": "Juan Arnau",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 83,
+      "nombre": "La senda de las nubes blancas",
+      "autor": "Lama Anagarika Govinda",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 84,
+      "nombre": "Libros proféticos II",
+      "autor": "William Blake",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 85,
+      "nombre": "Filosofía para desencantados",
+      "autor": "Leonardo da Jandra",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 86,
+      "nombre": "Itinerario poético",
+      "autor": "Octavio Paz",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 87,
+      "nombre": "Fantastes",
+      "autor": "George MacDonald",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 88,
+      "nombre": "Las mil y una noches I",
+      "autor": "Anónimo",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 89,
+      "nombre": "Las mil y una noches II",
+      "autor": "Anónimo",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 90,
+      "nombre": "Las mil y una noches III",
+      "autor": "Anónimo",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 91,
+      "nombre": "Mercurius",
+      "autor": "Patrick Harpur",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 92,
+      "nombre": "Salvar las apariencias",
+      "autor": "Owen Barfield",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 93,
+      "nombre": "El arte de morir",
+      "autor": "Peter y Elizabeth Fenwick",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 94,
+      "nombre": "Capturar la luz",
+      "autor": "Arthur Zajonc",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 95,
+      "nombre": "Diosas",
+      "autor": "Joseph Campbell",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 96,
+      "nombre": "Libros, secretos",
+      "autor": "Jacobo Siruela",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 97,
+      "nombre": "Cinco llaves del mundo secreto de Remedios Varo",
+      "autor": "VV. AA.",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 98,
+      "nombre": "El Palacio de las Dueñas",
+      "autor": "Vicente Lledó / Luis Asín",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 99,
+      "nombre": "Bhagavadgītā",
+      "autor": "Edición de Juan Arnau",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 100,
+      "nombre": "Obra completa bilingüe",
+      "autor": "Arthur Rimbaud",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 101,
+      "nombre": "La invención de la libertad",
+      "autor": "Juan Arnau",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 102,
+      "nombre": "Lluvia y otros cuentos",
+      "autor": "W. Somerset Maugham",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 103,
+      "nombre": "Las casas de los rusos",
+      "autor": "Robert Aickman",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 104,
+      "nombre": "La mente participativa",
+      "autor": "Henryk Skolimowski",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 105,
+      "nombre": "Socotra",
+      "autor": "Jordi Esteva",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 106,
+      "nombre": "A través del espejo",
+      "autor": "VV. AA.",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 107,
+      "nombre": "La transformación",
+      "autor": "Franz Kafka",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 108,
+      "nombre": "Vindicación del arte en la era del artificio",
+      "autor": "J. F. Martel",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 109,
+      "nombre": "Siete cuentos japoneses",
+      "autor": "Junichiro Tanizaki",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 110,
+      "nombre": "Las máscaras de Dios, volumen I",
+      "autor": "Joseph Campbell",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 111,
+      "nombre": "Filosofía viva",
+      "autor": "Henryk Skolimowski",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 112,
+      "nombre": "El impulso creativo y otros cuentos",
+      "autor": "W. Somerset Maugham",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 113,
+      "nombre": "El pensamiento del corazón",
+      "autor": "James Hillman",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 114,
+      "nombre": "Las máscaras de Dios, volumen II",
+      "autor": "Joseph Campbell",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 115,
+      "nombre": "La fuga de Dios",
+      "autor": "Juan Arnau",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 116,
+      "nombre": "El lector decadente",
+      "autor": "VV. AA.",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 117,
+      "nombre": "Lo que vio la criada",
+      "autor": "Yasutaka Tsutsui",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 118,
+      "nombre": "Las máscaras de Dios, volumen III",
+      "autor": "Joseph Campbell",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 119,
+      "nombre": "Breviario de escolios",
+      "autor": "Nicolás Gómez Dávila",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 120,
+      "nombre": "Los mundos de Robert Fludd",
+      "autor": "Joscelyn Godwin",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 121,
+      "nombre": "El cosmos arquetipal",
+      "autor": "Keiron Le Grice",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 122,
+      "nombre": "La Luna",
+      "autor": "Jules Cashford",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 123,
+      "nombre": "Las máscaras de Dios, volumen IV",
+      "autor": "Joseph Campbell",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 124,
+      "nombre": "Jung y la creación de la psicología moderna",
+      "autor": "Sonu Shamdasani",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 125,
+      "nombre": "El templo del cosmos",
+      "autor": "Jeremy Naydler",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 126,
+      "nombre": "Cuentos salvajes",
+      "autor": "Ednodio Quintero",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 127,
+      "nombre": "El arpa y la cámara",
+      "autor": "Owen Barfield",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 128,
+      "nombre": "El mundo como icono",
+      "autor": "Tom Cheetham",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 129,
+      "nombre": "La historia del Grial",
+      "autor": "Joseph Campbell",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 130,
+      "nombre": "Una guía para los perplejos",
+      "autor": "E. F. Schumacher",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 131,
+      "nombre": "Tú eres eso",
+      "autor": "Joseph Campbell",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 132,
+      "nombre": "El arte mágico",
+      "autor": "André Breton",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 133,
+      "nombre": "Upanisad",
+      "autor": "Edición de Juan Arnau",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 134,
+      "nombre": "El libro de los monstruos",
+      "autor": "Juan Rodolfo Wilcock",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 135,
+      "nombre": "El conocimiento perdido de la imaginación",
+      "autor": "Gary Lachman",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 136,
+      "nombre": "La metamorfosis de las plantas",
+      "autor": "J. W. Goethe",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 137,
+      "nombre": "La naturaleza como totalidad",
+      "autor": "Henri Bortoft",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 138,
+      "nombre": "Poder del sueño",
+      "autor": "VV. AA. Edición de Roger Caillois",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 139,
+      "nombre": "El héroe de las mil caras",
+      "autor": "Joseph Campbell",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 140,
+      "nombre": "Proceso y realidad",
+      "autor": "Alfred North Whitehead",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 141,
+      "nombre": "Los dioses de los griegos",
+      "autor": "Karl Kerényi",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 142,
+      "nombre": "La lucha por el futuro humano",
+      "autor": "Jeremy Naydler",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 143,
+      "nombre": "¿Por qué el materialismo es un embuste?",
+      "autor": "Bernardo Kastrup",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 144,
+      "nombre": "El arcoíris invisible",
+      "autor": "Arthur Firstenberg",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 145,
+      "nombre": "Realidad",
+      "autor": "Peter Kingsley",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 146,
+      "nombre": "Tierra viviente",
+      "autor": "Stephan Harding",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 147,
+      "nombre": "El éxtasis del ser",
+      "autor": "Joseph Campbell",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 148,
+      "nombre": "Jung y la imaginación alquímica",
+      "autor": "Jeffrey Raff",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 149,
+      "nombre": "El vuelco",
+      "autor": "Jeffrey J. Kripal",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 150,
+      "nombre": "El campo vibratorio",
+      "autor": "Changlin Zhang",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 151,
+      "nombre": "Naturaleza esencial",
+      "autor": "Christian de Quincey",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 152,
+      "nombre": "El universo como una obra de arte",
+      "autor": "William K. Mahony",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 153,
+      "nombre": "Noé en imágenes",
+      "autor": "José Joaquín Parra Bañón",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 154,
+      "nombre": "Pensar la ciencia",
+      "autor": "Bernardo Kastrup",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 155,
+      "nombre": "La filosofía como rito de renacimiento",
+      "autor": "Algis Uždavinys",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 156,
+      "nombre": "Restaurar el Alma del Mundo",
+      "autor": "David Fideler",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 157,
+      "nombre": "El milagro egipcio",
+      "autor": "R. A. Schwaller de Lubicz",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 158,
+      "nombre": "Hilma af Klint, visionaria",
+      "autor": "VV. AA.",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 159,
+      "nombre": "Diálogo del diamante",
+      "autor": "Edición de Juan Arnau",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 160,
+      "nombre": "De Planilandia a la cuarta dimensión",
+      "autor": "VV. AA.",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 161,
+      "nombre": "Pitágoras y la ciencia sagrada",
+      "autor": "VV. AA.",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 162,
+      "nombre": "La fuente helada",
+      "autor": "Claude Bragdon",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 163,
+      "nombre": "El espejo de lo maravilloso",
+      "autor": "Pierre Mabille",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 164,
+      "nombre": "Mito y sentido",
+      "autor": "Joseph Campbell",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 165,
+      "nombre": "Mysterium magnum",
+      "autor": "Jacob Böhme",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 166,
+      "nombre": "Las estancias secretas",
+      "autor": "Alberto Chimal",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    },
+    {
+      "numero": 167,
+      "nombre": "Nanna o el alma de las plantas",
+      "autor": "Gustav Theodor Fechner",
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
+    }
+  ]
+}
