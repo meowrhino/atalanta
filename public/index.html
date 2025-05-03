@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Editor de Catálogo - Atalanta</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+      background: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+    }
+    .item {
+      background: white;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .item input, .item select {
+      margin: 0.5rem 0;
+      width: 100%;
+    }
+    .item label {
+      font-weight: bold;
+    }
+    .toggle {
+      margin-right: 1rem;
+    }
+    button {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+    }
+    #guardar {
+      background: #2b6cb0;
+      color: white;
+      border: none;
+      font-size: 1rem;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Editor de Catálogo - Atalanta</h1>
+  <div id="catalogo"></div>
+  <button id="guardar">Guardar cambios</button>
+
+  <script>
+    let datos = [];
+
+    async function cargarCatalogo() {
+      const res = await fetch('/catalogo');
+      const json = await res.json();
+      datos = json.catalogo;
+      render();
+    }
+
+    function render() {
+      const cont = document.getElementById('catalogo');
+      cont.innerHTML = '';
+      datos.forEach((item, i) => {
+        const div = document.createElement('div');
+        div.className = 'item';
+        div.innerHTML = \`
+          <label>Número: ${i + 1}</label><br>
+          <label>Nombre</label>
+          <input type="text" value="\${item.nombre}" onchange="datos[\${i}].nombre = this.value">
+          
+          <label>Autor</label>
+          <input type="text" value="\${item.autor}" onchange="datos[\${i}].autor = this.value">
+
+          <label>Colección</label>
+          <select onchange="datos[\${i}].coleccion = this.value">
+            <option value="">Fuera de colección</option>
+            <option value="LIBER NATURAE" \${item.coleccion === 'LIBER NATURAE' ? 'selected' : ''}>LIBER NATURAE</option>
+            <option value="MEMORIA MUNDI" \${item.coleccion === 'MEMORIA MUNDI' ? 'selected' : ''}>MEMORIA MUNDI</option>
+            <option value="IMAGINATIO VERA" \${item.coleccion === 'IMAGINATIO VERA' ? 'selected' : ''}>IMAGINATIO VERA</option>
+            <option value="ARS BREVIS" \${item.coleccion === 'ARS BREVIS' ? 'selected' : ''}>ARS BREVIS</option>
+          </select>
+
+          <label>Emoji</label>
+          <input type="text" value="\${item.emoji}" onchange="datos[\${i}].emoji = this.value">
+
+          <label><input type="checkbox" \${item.escrito ? 'checked' : ''} onchange="datos[\${i}].escrito = this.checked"> Escrito</label><br>
+          <label><input type="checkbox" \${item.disponible ? 'checked' : ''} onchange="datos[\${i}].disponible = this.checked"> Disponible</label>
+        \`;
+        cont.appendChild(div);
+      });
+    }
+
+    document.getElementById('guardar').addEventListener('click', async () => {
+      const res = await fetch('/catalogo', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ catalogo: datos })
+      });
+      if (res.ok) {
+        alert("Catálogo guardado correctamente.");
+      } else {
+        alert("Error al guardar el catálogo.");
+      }
+    });
+
+    cargarCatalogo();
+  </script>
+</body>
+</html>
