@@ -220,10 +220,10 @@
       "numero": 25,
       "nombre": "Hombres salmonela en el planeta porno",
       "autor": "Yasutaka Tsutsui",
-      "coleccion": "",
+      "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
-      "emoji": ""
+      "disponible": true,
+      "emoji": "🐙"
     },
     {
       "numero": 26,
@@ -400,10 +400,10 @@
       "numero": 45,
       "nombre": "El fuego secreto de los filósofos",
       "autor": "Patrick Harpur",
-      "coleccion": "",
-      "escrito": false,
-      "disponible": false,
-      "emoji": ""
+      "coleccion": "IMAGINATIO VERA",
+      "escrito": true,
+      "disponible": true,
+      "emoji": "🤫"
     },
     {
       "numero": 46,
@@ -823,10 +823,10 @@
       "numero": 92,
       "nombre": "Salvar las apariencias",
       "autor": "Owen Barfield",
-      "coleccion": "",
-      "escrito": false,
-      "disponible": false,
-      "emoji": ""
+      "coleccion": "IMAGINATIO VERA",
+      "escrito": true,
+      "disponible": true,
+      "emoji": "🤲"
     },
     {
       "numero": 93,
@@ -1138,10 +1138,10 @@
       "numero": 127,
       "nombre": "El arpa y la cámara",
       "autor": "Owen Barfield",
-      "coleccion": "",
-      "escrito": false,
-      "disponible": false,
-      "emoji": ""
+      "coleccion": "IMAGINATIO VERA",
+      "escrito": true,
+      "disponible": true,
+      "emoji": "🎐"
     },
     {
       "numero": 128,
