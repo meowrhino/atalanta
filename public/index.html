@@ -26,9 +26,6 @@
     .item label {
       font-weight: bold;
     }
-    .toggle {
-      margin-right: 1rem;
-    }
     button {
       margin-top: 1rem;
       padding: 0.5rem 1rem;
@@ -51,10 +48,14 @@
     let datos = [];
 
     async function cargarCatalogo() {
-      const res = await fetch('/catalogo');
-      const json = await res.json();
-      datos = json.catalogo;
-      render();
+      try {
+        const res = await fetch('/catalogo');
+        const json = await res.json();
+        datos = json.catalogo;
+        render();
+      } catch (err) {
+        console.error("Error cargando el catálogo:", err);
+      }
     }
 
     function render() {
@@ -63,29 +64,28 @@
       datos.forEach((item, i) => {
         const div = document.createElement('div');
         div.className = 'item';
-        div.innerHTML = \`
-          <label>Número: ${i + 1}</label><br>
-          <label>Nombre</label>
-          <input type="text" value="\${item.nombre}" onchange="datos[\${i}].nombre = this.value">
-          
-          <label>Autor</label>
-          <input type="text" value="\${item.autor}" onchange="datos[\${i}].autor = this.value">
 
-          <label>Colección</label>
-          <select onchange="datos[\${i}].coleccion = this.value">
-            <option value="">Fuera de colección</option>
-            <option value="LIBER NATURAE" \${item.coleccion === 'LIBER NATURAE' ? 'selected' : ''}>LIBER NATURAE</option>
-            <option value="MEMORIA MUNDI" \${item.coleccion === 'MEMORIA MUNDI' ? 'selected' : ''}>MEMORIA MUNDI</option>
-            <option value="IMAGINATIO VERA" \${item.coleccion === 'IMAGINATIO VERA' ? 'selected' : ''}>IMAGINATIO VERA</option>
-            <option value="ARS BREVIS" \${item.coleccion === 'ARS BREVIS' ? 'selected' : ''}>ARS BREVIS</option>
-          </select>
+        const html = [
+          '<label>Número: ' + (i + 1) + '</label><br>',
+          '<label>Nombre</label>',
+          '<input type="text" value="' + item.nombre + '" onchange="datos[' + i + '].nombre = this.value">',
+          '<label>Autor</label>',
+          '<input type="text" value="' + item.autor + '" onchange="datos[' + i + '].autor = this.value">',
+          '<label>Colección</label>',
+          '<select onchange="datos[' + i + '].coleccion = this.value">',
+            '<option value="">Fuera de colección</option>',
+            '<option value="LIBER NATURAE"' + (item.coleccion === 'LIBER NATURAE' ? ' selected' : '') + '>LIBER NATURAE</option>',
+            '<option value="MEMORIA MUNDI"' + (item.coleccion === 'MEMORIA MUNDI' ? ' selected' : '') + '>MEMORIA MUNDI</option>',
+            '<option value="IMAGINATIO VERA"' + (item.coleccion === 'IMAGINATIO VERA' ? ' selected' : '') + '>IMAGINATIO VERA</option>',
+            '<option value="ARS BREVIS"' + (item.coleccion === 'ARS BREVIS' ? ' selected' : '') + '>ARS BREVIS</option>',
+          '</select>',
+          '<label>Emoji</label>',
+          '<input type="text" value="' + item.emoji + '" onchange="datos[' + i + '].emoji = this.value">',
+          '<label><input type="checkbox" ' + (item.escrito ? 'checked' : '') + ' onchange="datos[' + i + '].escrito = this.checked"> Escrito</label><br>',
+          '<label><input type="checkbox" ' + (item.disponible ? 'checked' : '') + ' onchange="datos[' + i + '].disponible = this.checked"> Disponible</label>'
+        ].join("\n");
 
-          <label>Emoji</label>
-          <input type="text" value="\${item.emoji}" onchange="datos[\${i}].emoji = this.value">
-
-          <label><input type="checkbox" \${item.escrito ? 'checked' : ''} onchange="datos[\${i}].escrito = this.checked"> Escrito</label><br>
-          <label><input type="checkbox" \${item.disponible ? 'checked' : ''} onchange="datos[\${i}].disponible = this.checked"> Disponible</label>
-        \`;
+        div.innerHTML = html;
         cont.appendChild(div);
       });
     }
