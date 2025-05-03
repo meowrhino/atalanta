@@ -1498,10 +1498,10 @@
       "numero": 167,
       "nombre": "Nanna o el alma de las plantas",
       "autor": "Gustav Theodor Fechner",
-      "coleccion": "",
-      "escrito": false,
-      "disponible": false,
-      "emoji": ""
+      "coleccion": "IMAGINATIO VERA",
+      "escrito": true,
+      "disponible": true,
+      "emoji": "🧝🏿‍♀️"
     }
   ]
 }
