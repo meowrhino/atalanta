@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <title>Editor de Catálogo - Atalanta</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
   <style>
     :root {
       --rojo-atalanta: #c0392b;
-      --azul-atalanta: #2b6cb0;
-      --negro-fondo: #000;
+      --azul-atalanta: #00132b;
+      --negro-fondo: #0c0f1A;
     }
 
     body {
@@ -23,7 +23,7 @@
     h1 {
       text-align: center;
       color: var(--azul-atalanta);
-      font-weight: 300;
+      font-weight: 500;
       margin-bottom: 2rem;
     }
 
@@ -31,10 +31,14 @@
       background: var(--azul-atalanta);
       color: var(--rojo-atalanta);
       margin-bottom: 2rem;
-      padding: 1.5rem;
-      border-radius: 4px;
+      padding: 2rem 2rem 2rem 5rem;
+      border-radius: 0.5px;
       border-bottom: 2px solid var(--rojo-atalanta);
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
       position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
       max-width: 700px;
       margin-left: auto;
       margin-right: auto;
@@ -42,32 +46,41 @@
 
     .item-number {
       position: absolute;
-      top: -0.8rem;
+      top: 1.5rem;
       left: 1rem;
-      background: var(--rojo-atalanta);
-      color: white;
-      padding: 0.25rem 0.75rem;
-      border-radius: 2px;
-      font-size: 0.85rem;
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: var(--rojo-atalanta);
     }
 
     .item label {
-      display: block;
-      margin-top: 1rem;
       font-weight: bold;
+      font-size: 0.95rem;
     }
 
     .item input[type="text"],
     .item select {
       width: 100%;
-      margin-top: 0.25rem;
-      padding: 0.5rem;
-      border: 1px solid #fff;
-      border-radius: 2px;
+      padding: 0.6rem;
+      border: none;
+      border-bottom: 1px solid var(--rojo-atalanta);
+      border-radius: 0.5px;
       font-family: 'Noto Serif JP', serif;
-      font-weight: 300;
-      background: #fff;
-      color: #000;
+      font-weight: 400;
+      background: var(--negro-fondo);
+      color: var(--rojo-atalanta);
+      transition: color 0.3s ease;
+    }
+
+    .item input[type="text"]:focus,
+    .item select:focus {
+      outline: none;
+      color: white;
+    }
+
+    .item select option:hover {
+      background: var(--rojo-atalanta);
+      color: white;
     }
 
     .item input[type="checkbox"] {
@@ -97,12 +110,11 @@
       }
 
       .item {
-        padding: 1rem;
+        padding: 1rem 1rem 1rem 4rem;
       }
 
       .item-number {
-        font-size: 0.75rem;
-        padding: 0.2rem 0.5rem;
+        font-size: 1rem;
       }
     }
   </style>
@@ -134,7 +146,7 @@
         div.className = 'item';
 
         const html = [
-          '<div class="item-number">Nº ' + (i + 1) + '</div>',
+          '<div class="item-number">' + (i + 1) + '</div>',
           '<label>Nombre</label>',
           '<input type="text" value="' + item.nombre + '" onchange="datos[' + i + '].nombre = this.value">',
           '<label>Autor</label>',
