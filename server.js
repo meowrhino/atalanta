@@ -1,10 +1,10 @@
 const cors = require('cors');
-app.use(cors());
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const simpleGit = require('simple-git');
 const app = express();
+app.use(cors());
 const PORT = process.env.PORT || 10000;
 
 app.use(express.json());
