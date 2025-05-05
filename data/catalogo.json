@@ -1610,12 +1610,12 @@
       "numero": 147,
       "nombre": "El éxtasis del ser",
       "autor": "Joseph Campbell",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/el-extasis-del-ser/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Plantilla-portada-web-Extasis-del-ser-324x503.jpg"
     },
     {
       "numero": 148,
@@ -1676,56 +1676,56 @@
       "numero": 153,
       "nombre": "Noé en imágenes",
       "autor": "José Joaquín Parra Bañón",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/noe-en-imagenes/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Noe-en-imagenes-324x503.jpg"
     },
     {
       "numero": 154,
       "nombre": "Pensar la ciencia",
       "autor": "Bernardo Kastrup",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/pensar-la-ciencia/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Pensar-la-ciencia-Kastrup-324x503.jpg"
     },
     {
       "numero": 155,
       "nombre": "La filosofía como rito de renacimiento",
       "autor": "Algis Uždavinys",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/filosofia-rito-renacimiento/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Filosofia-como-rito-de-Renacimiento-324x503.png"
     },
     {
       "numero": 156,
       "nombre": "Restaurar el Alma del Mundo",
       "autor": "David Fideler",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/restaurar-el-alma-del-mundo/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Restaurar-alma-del-mundo-324x503.jpg"
     },
     {
       "numero": 157,
       "nombre": "El milagro egipcio",
       "autor": "R. A. Schwaller de Lubicz",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/el-milagro-egipcio/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Milagro-egipcio-324x503.jpg"
     },
     {
       "numero": 158,
@@ -1742,12 +1742,12 @@
       "numero": 159,
       "nombre": "Diálogo del diamante",
       "autor": "Edición de Juan Arnau",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/el-dialogo-del-diamante/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Dialogo-diamante-324x503.png"
     },
     {
       "numero": 160,
@@ -1764,12 +1764,12 @@
       "numero": 161,
       "nombre": "Pitágoras y la ciencia sagrada",
       "autor": "VV. AA.",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/pitagoras-y-la-ciencia-sagrada/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/CUBIERTA-PITAGORAS-324x510.png"
     },
     {
       "numero": 162,
@@ -1797,23 +1797,23 @@
       "numero": 164,
       "nombre": "Mito y sentido",
       "autor": "Joseph Campbell",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/mito-y-sentido/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Web-Mito-y-sentido-324x503.jpg"
     },
     {
       "numero": 165,
       "nombre": "Mysterium magnum",
       "autor": "Jacob Böhme",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/mysterium-magnum/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Plantilla-portada-web-Mysterium-324x503.jpg"
     },
     {
       "numero": 166,
@@ -1836,6 +1836,17 @@
       "emoji": "🧝🏿‍♀️",
       "link": "https://www.edicionesatalanta.com/catalogo/nanna-o-el-alma-de-las-plantas/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-web-Nanna-324x503.png"
+    },
+    {
+      "numero": 168,
+      "nombre": "La voz tras el escenario",
+      "autor": "Mario Praz",
+      "link": "https://www.edicionesatalanta.com/catalogo/la-voz-tras-el-escenario/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-web-Praz-324x503.jpg",
+      "coleccion": "MEMORIA MUNDI",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
     }
   ]
 }
