@@ -232,10 +232,10 @@
       "numero": 25,
       "nombre": "Hombres salmonela en el planeta porno",
       "autor": "Yasutaka Tsutsui",
-      "coleccion": "",
+      "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
-      "emoji": ""
+      "disponible": true,
+      "emoji": "🐙"
     },
     {
       "numero": 26,
@@ -425,9 +425,9 @@
       "nombre": "El fuego secreto de los filósofos",
       "autor": "Patrick Harpur",
       "coleccion": "IMAGINATIO VERA",
-      "escrito": false,
-      "disponible": false,
-      "emoji": "",
+      "escrito": true,
+      "disponible": true,
+      "emoji": "❤️‍🔥"
       "link": "https://www.edicionesatalanta.com/catalogo/el-fuego-secreto-de-los-filosofos/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/45-Portada_Harpur_Fuego_secreto-324x509.jpg"
     },
@@ -1079,7 +1079,7 @@
     },
     {
       "numero": 114,
-      "nombre": "Las máscaras de Dios, volumén II",
+      "nombre": "Las máscaras de Dios, volumen II",
       "autor": "Joseph Campbell",
       "coleccion": "",
       "escrito": false,
@@ -1115,7 +1115,7 @@
     },
     {
       "numero": 118,
-      "nombre": "Las máscaras de Dios, volumén III",
+      "nombre": "Las máscaras de Dios, volumen III",
       "autor": "Joseph Campbell",
       "coleccion": "",
       "escrito": false,
@@ -1160,7 +1160,7 @@
     },
     {
       "numero": 123,
-      "nombre": "Las máscaras de Dios, volumén IV",
+      "nombre": "Las máscaras de Dios, volumen IV",
       "autor": "Joseph Campbell",
       "coleccion": "",
       "escrito": false,
@@ -1199,9 +1199,9 @@
       "nombre": "El arpa y la cámara",
       "autor": "Owen Barfield",
       "coleccion": "IMAGINATIO VERA",
-      "escrito": false,
-      "disponible": false,
-      "emoji": "",
+      "escrito": true,
+      "disponible": true,
+      "emoji": "🎐"
       "link": "https://www.edicionesatalanta.com/catalogo/el-arpa-y-la-camara/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/127-barfield-camara-324x509.jpg"
     },
@@ -1585,9 +1585,9 @@
       "nombre": "Nanna o el alma de las plantas",
       "autor": "Gustav Theodor Fechner",
       "coleccion": "IMAGINATIO VERA",
-      "escrito": false,
-      "disponible": false,
-      "emoji": "",
+      "escrito": true,
+      "disponible": true,
+      "emoji": "🧝🏿‍♀️"
       "link": "https://www.edicionesatalanta.com/catalogo/nanna-o-el-alma-de-las-plantas/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-web-Nanna-324x503.png"
     }
