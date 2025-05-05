@@ -301,12 +301,12 @@
       "numero": 28,
       "nombre": "Filosofía antigua, misterios y magia",
       "autor": "Peter Kingsley",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/filosofia-antigua-misterios-y-magia/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/28-kingsley-Cubierta_Filosofia_antigua_Alta-324x509.jpg"
     },
     {
       "numero": 29,
@@ -1071,12 +1071,12 @@
       "numero": 98,
       "nombre": "El Palacio de las Dueñas",
       "autor": "Vicente Lledó / Luis Asín",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/el-palacio-de-las-duenas/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/98-lleo-Portada_Duenas_Alta-324x509.jpg"
     },
     {
       "numero": 99,
@@ -1093,23 +1093,23 @@
       "numero": 100,
       "nombre": "Obra completa bilingüe",
       "autor": "Arthur Rimbaud",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/obra-completa-bilingue/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/100-Cubierta_Rimbaud-324x509.jpg"
     },
     {
       "numero": 101,
       "nombre": "La invención de la libertad",
       "autor": "Juan Arnau",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/la-invencion-de-la-libertad/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/101-arnau-Portada_invencion_Libertad_Alta-324x509.jpg"
     },
     {
       "numero": 102,
@@ -1137,23 +1137,23 @@
       "numero": 104,
       "nombre": "La mente participativa",
       "autor": "Henryk Skolimowski",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/la-mente-participativa/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/104-skolimowsky-Portada_Mente_participativa-324x509.jpg"
     },
     {
       "numero": 105,
       "nombre": "Socotra",
       "autor": "Jordi Esteva",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/socotra/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/105-portada-SOCOTRA-def-324x405.jpg"
     },
     {
       "numero": 106,
@@ -1181,12 +1181,12 @@
       "numero": 108,
       "nombre": "Vindicación del arte en la era del artificio",
       "autor": "J. F. Martel",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/vindicacion-del-arte-en-la-era-del-artificio/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/108-martel-cubierta-VINDICACION-DEL-ARTE-324x509.jpg"
     },
     {
       "numero": 109,
@@ -1201,25 +1201,25 @@
     },
     {
       "numero": 110,
-      "nombre": "Las máscaras de Dios, volumen I",
+      "nombre": "Las máscaras de Dios I. Mitología primitiva",
       "autor": "Joseph Campbell",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/las-mascaras-de-dios-i-mitologia-primitiva/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/110-campbell-Portada-Mascaras-de-dios-1-324x509.jpg"
     },
     {
       "numero": 111,
       "nombre": "Filosofía viva",
       "autor": "Henryk Skolimowski",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/filosofia-viva/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/111-skolimowski-Portada-Ecofilosofia-324x509.jpg"
     },
     {
       "numero": 112,
@@ -1245,25 +1245,25 @@
     },
     {
       "numero": 114,
-      "nombre": "Las máscaras de Dios, volumen II",
+      "nombre": "Las máscaras de Dios II. Mitología oriental",
       "autor": "Joseph Campbell",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/las-mascaras-de-dios-ii-mitologia-oriental/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/114-campbell-cubierta-LAS-MASCARAS-DE-DIOS_II-324x509.jpg"
     },
     {
       "numero": 115,
       "nombre": "La fuga de Dios",
       "autor": "Juan Arnau",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/la-fuga-de-dios/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/115-arnau-Portada_La_fuga_de_dios-324x509.jpg"
     },
     {
       "numero": 116,
@@ -1289,14 +1289,14 @@
     },
     {
       "numero": 118,
-      "nombre": "Las máscaras de Dios, volumen III",
+      "nombre": "Las máscaras de Dios III. Mitología occidental",
       "autor": "Joseph Campbell",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/las-mascaras-de-dios-iii-mitologia-occidental/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/118-campbell-Portada_Mascarasdedios_III-324x509.jpg"
     },
     {
       "numero": 119,
