@@ -31,10 +31,12 @@
       "numero": 4,
       "nombre": "El fuego secreto de los filósofos",
       "autor": "Patrick Harpur",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/el-fuego-secreto-de-los-filosofos/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/45-Portada_Harpur_Fuego_secreto-324x509.jpg"
     },
     {
       "numero": 5,
@@ -49,10 +51,12 @@
       "numero": 6,
       "nombre": "El Monte Análogo",
       "autor": "René Daumal",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/el-monte-analogo/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/6-daumal-Cubierta_El_monte_analogo-324x509.jpg"
     },
     {
       "numero": 7,
@@ -103,10 +107,12 @@
       "numero": 12,
       "nombre": "La Villa de los Misterios",
       "autor": "Linda Fierz-David",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/la-villa-de-los-misterios-de-pompeya/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/12-fierz-CUBIERTA_MISTERIOS_POMPELLA-324x509.jpg"
     },
     {
       "numero": 13,
@@ -121,10 +127,12 @@
       "numero": 14,
       "nombre": "Realidad daimónica",
       "autor": "Patrick Harpur",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/realidad-daimonica/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Cubierta-Realidad-daimonica-3-324x503.jpg"
     },
     {
       "numero": 15,
@@ -139,10 +147,12 @@
       "numero": 16,
       "nombre": "Pan y la pesadilla",
       "autor": "James Hillman",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/pan-y-la-pesadilla/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Pan-y-la-pesadilla-3-Web-324x503.png"
     },
     {
       "numero": 17,
@@ -184,10 +194,12 @@
       "numero": 21,
       "nombre": "La fuga de Atalanta",
       "autor": "Michael Maier",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/la-fuga-de-atalanta/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/21-maier-Portada_Fuga_de_Atalanta_2-324x509.jpg"
     },
     {
       "numero": 22,
@@ -220,10 +232,10 @@
       "numero": 25,
       "nombre": "Hombres salmonela en el planeta porno",
       "autor": "Yasutaka Tsutsui",
-      "coleccion": "ARS BREVIS",
+      "coleccion": "",
       "escrito": false,
-      "disponible": true,
-      "emoji": "🐙"
+      "disponible": false,
+      "emoji": ""
     },
     {
       "numero": 26,
@@ -265,10 +277,12 @@
       "numero": 30,
       "nombre": "Tres novelas en imágenes",
       "autor": "Max Ernst",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/tres-novelas-en-imagenes/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/30-ernst-Cubierta_tres_novelas-324x509.jpg"
     },
     {
       "numero": 31,
@@ -292,28 +306,34 @@
       "numero": 33,
       "nombre": "Armonía de las esferas",
       "autor": "Joscelyn Godwin (ed.)",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/armonia-de-las-esferas/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/33-godwin-Portada-Armonia-prensa-324x509.jpg"
     },
     {
       "numero": 34,
       "nombre": "Dioses y mitos de la India",
       "autor": "Alain Daniélou",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/mitos-y-dioses-de-la-india/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/danielou-Portada-Dioses-y-mitos-324x509.jpg"
     },
     {
       "numero": 35,
       "nombre": "Los héroes griegos",
       "autor": "Karl Kerényi",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/los-heroes-griegos/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Cubierta-Heroes-Web-324x503.jpg"
     },
     {
       "numero": 36,
@@ -328,10 +348,12 @@
       "numero": 37,
       "nombre": "El mito polar",
       "autor": "Joscelyn Godwin",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/el-mito-polar/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/37-godwin-Portada_Polar-324x509.jpg"
     },
     {
       "numero": 38,
@@ -373,10 +395,12 @@
       "numero": 42,
       "nombre": "El mito de Osiris",
       "autor": "Jules Cashford",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/el-mito-de-osiris-los-misterios-de-abidos/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/42-cashford-Portada_Mito_de_Isis-324x509.jpg"
     },
     {
       "numero": 43,
@@ -395,15 +419,17 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },  
+    },
     {
       "numero": 45,
       "nombre": "El fuego secreto de los filósofos",
       "autor": "Patrick Harpur",
       "coleccion": "IMAGINATIO VERA",
-      "escrito": true,
-      "disponible": true,
-      "emoji": "🤫"
+      "escrito": false,
+      "disponible": false,
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/el-fuego-secreto-de-los-filosofos/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/45-Portada_Harpur_Fuego_secreto-324x509.jpg"
     },
     {
       "numero": 46,
@@ -440,15 +466,17 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 50,
       "nombre": "El mundo bajo los párpados",
       "autor": "Jacobo Siruela",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/el-mundo-bajo-los-parpados/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/50-siruela-Cubierta-parpados-3-edicion-324x509.jpg"
     },
     {
       "numero": 51,
@@ -494,7 +522,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 56,
       "nombre": "Paprika",
@@ -508,11 +536,13 @@
       "numero": 57,
       "nombre": "Cuaderno de noche",
       "autor": "Inka Martí",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
-    },    
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/cuaderno-de-noche/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/57-marti-cuaderno-portada-buena--324x509.jpg"
+    },
     {
       "numero": 58,
       "nombre": "Aventuras en Venecia",
@@ -530,7 +560,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 60,
       "nombre": "Socotra, la isla de los genios",
@@ -557,7 +587,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 63,
       "nombre": "La noche",
@@ -575,7 +605,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 65,
       "nombre": "Decadencia y caída del Imperio Romano I",
@@ -589,19 +619,23 @@
       "numero": 66,
       "nombre": "El mundo en el que vivo",
       "autor": "Helen Keller",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
-    },    
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/el-mundo-en-el-que-vivo/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/66-Portada_Keller-324x509.jpg"
+    },
     {
       "numero": 67,
       "nombre": "Rudolf Steiner",
       "autor": "Gary Lachman",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/rudolf-steiner/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-web-Rudolf-Steiner-324x503.jpg"
     },
     {
       "numero": 68,
@@ -611,15 +645,17 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 69,
       "nombre": "Imagen del mito",
       "autor": "Joseph Campbell",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/imagen-del-mito/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/69-campbell-Portada_mito-324x509.jpg"
     },
     {
       "numero": 70,
@@ -629,7 +665,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 71,
       "nombre": "Cuentos de hadas",
@@ -647,7 +683,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 73,
       "nombre": "La pérdida del reino",
@@ -661,11 +697,13 @@
       "numero": 74,
       "nombre": "La tradición oculta del alma",
       "autor": "Patrick Harpur",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
-    },    
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/la-tradicion-oculta-del-alma/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/74-Nueva_cubierta_Alma_Harpur-324x509.jpg"
+    },
     {
       "numero": 75,
       "nombre": "Los últimos años de Casanova",
@@ -679,29 +717,35 @@
       "numero": 76,
       "nombre": "Ocho ensayos sobre William Blake",
       "autor": "Kathleen Raine",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
-    },    
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/ocho-ensayos-sobre-william-blake/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/76-raine-PORTADA_ALTA_GOLGONOOZA-324x509.jpg"
+    },
     {
       "numero": 77,
       "nombre": "Las extensiones interiores del espacio exterior",
       "autor": "J. Campbell",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/las-extensiones-interiores-del-espacio-exterior/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/77-campbell-Cubierta-Extensiones-Interiores-324x509.jpg"
     },
     {
       "numero": 78,
       "nombre": "La historia secreta de la conciencia",
       "autor": "Gary Lachman",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
-    },    
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/una-historia-secreta-de-la-consciencia/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/78-lachman-Cubierta_historia-consciencia-2-324x509.jpg"
+    },
     {
       "numero": 79,
       "nombre": "Antología universal del relato fantástico",
@@ -715,11 +759,13 @@
       "numero": 80,
       "nombre": "Libros proféticos I",
       "autor": "William Blake",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
-    },    
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/libros-profeticos-tomo-i/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/80-Cubierta_blake_I-324x509.jpg"
+    },
     {
       "numero": 81,
       "nombre": "Sendas de Oku",
@@ -737,7 +783,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 83,
       "nombre": "La senda de las nubes blancas",
@@ -751,11 +797,13 @@
       "numero": 84,
       "nombre": "Libros proféticos II",
       "autor": "William Blake",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
-    },    
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/libros-profeticos-ii/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/84-Cubierta_Blake_2-324x509.jpg"
+    },
     {
       "numero": 85,
       "nombre": "Filosofía para desencantados",
@@ -773,15 +821,17 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 87,
       "nombre": "Fantastes",
       "autor": "George MacDonald",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/fantastes/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/87-mcdonald-Cubierta_Fantastes_Alta-324x509.jpg"
     },
     {
       "numero": 88,
@@ -791,7 +841,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 89,
       "nombre": "Las mil y una noches II",
@@ -809,24 +859,28 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 91,
       "nombre": "Mercurius",
       "autor": "Patrick Harpur",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/mercurius-o-el-matrimonio-del-cielo-y-la-tierra/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/91-harpur-Portada-Mercurius-Alta-324x509.jpg"
     },
     {
       "numero": 92,
       "nombre": "Salvar las apariencias",
       "autor": "Owen Barfield",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/salvar-las-apariencias/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/92-barfield-Portada-Barfield_alta-324x509.jpg"
     },
     {
       "numero": 93,
@@ -845,15 +899,17 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 95,
       "nombre": "Diosas",
       "autor": "Joseph Campbell",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/diosas/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Diosas-Campbell-NL-324x497.jpg"
     },
     {
       "numero": 96,
@@ -863,15 +919,17 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 97,
       "nombre": "Cinco llaves del mundo secreto de Remedios Varo",
       "autor": "VV. AA.",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/cinco-llaves-del-mundo-secreto-de-remedios-varo/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/97-Portada_Remedios_Varo_Alta-324x509.jpg"
     },
     {
       "numero": 98,
@@ -881,7 +939,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 99,
       "nombre": "Bhagavadgītā",
@@ -899,7 +957,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 101,
       "nombre": "La invención de la libertad",
@@ -917,7 +975,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 103,
       "nombre": "Las casas de los rusos",
@@ -935,7 +993,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 105,
       "nombre": "Socotra",
@@ -953,7 +1011,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 107,
       "nombre": "La transformación",
@@ -971,7 +1029,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 109,
       "nombre": "Siete cuentos japoneses",
@@ -989,7 +1047,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 111,
       "nombre": "Filosofía viva",
@@ -1007,25 +1065,27 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 113,
       "nombre": "El pensamiento del corazón",
       "autor": "James Hillman",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/el-pensamiento-del-corazon/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/113-hillman-Cubierta_Pensamiento_Corazon_Alta-324x509.jpg"
     },
     {
       "numero": 114,
-      "nombre": "Las máscaras de Dios, volumen II",
+      "nombre": "Las máscaras de Dios, volumén II",
       "autor": "Joseph Campbell",
       "coleccion": "",
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 115,
       "nombre": "La fuga de Dios",
@@ -1043,7 +1103,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 117,
       "nombre": "Lo que vio la criada",
@@ -1055,13 +1115,13 @@
     },
     {
       "numero": 118,
-      "nombre": "Las máscaras de Dios, volumen III",
+      "nombre": "Las máscaras de Dios, volumén III",
       "autor": "Joseph Campbell",
       "coleccion": "",
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 119,
       "nombre": "Breviario de escolios",
@@ -1079,7 +1139,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 121,
       "nombre": "El cosmos arquetipal",
@@ -1097,10 +1157,10 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 123,
-      "nombre": "Las máscaras de Dios, volumen IV",
+      "nombre": "Las máscaras de Dios, volumén IV",
       "autor": "Joseph Campbell",
       "coleccion": "",
       "escrito": false,
@@ -1115,7 +1175,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 125,
       "nombre": "El templo del cosmos",
@@ -1133,33 +1193,39 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 127,
       "nombre": "El arpa y la cámara",
       "autor": "Owen Barfield",
       "coleccion": "IMAGINATIO VERA",
-      "escrito": true,
-      "disponible": true,
-      "emoji": "🎐"
+      "escrito": false,
+      "disponible": false,
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/el-arpa-y-la-camara/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/127-barfield-camara-324x509.jpg"
     },
     {
       "numero": 128,
       "nombre": "El mundo como icono",
       "autor": "Tom Cheetham",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
-    },    
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/el-mundo-como-icono/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Cubierta-Mundo-Icono-324x499.jpg"
+    },
     {
       "numero": 129,
       "nombre": "La historia del Grial",
       "autor": "Joseph Campbell",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/la-historia-del-grial/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Cubierta-Grial-324x507.jpg"
     },
     {
       "numero": 130,
@@ -1169,7 +1235,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 131,
       "nombre": "Tú eres eso",
@@ -1183,11 +1249,13 @@
       "numero": 132,
       "nombre": "El arte mágico",
       "autor": "André Breton",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
-    },    
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/el-arte-magico/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Web-arte-magico-324x509.jpg"
+    },
     {
       "numero": 133,
       "nombre": "Upanisad",
@@ -1210,10 +1278,12 @@
       "numero": 135,
       "nombre": "El conocimiento perdido de la imaginación",
       "autor": "Gary Lachman",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
-      "emoji": ""
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/el-conocimiento-perdido-de-la-imaginacion/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Conocimiento-perdido-324x503.jpg"
     },
     {
       "numero": 136,
@@ -1393,7 +1463,6 @@
       "disponible": false,
       "emoji": ""
     },
-
     {
       "numero": 154,
       "nombre": "Pensar la ciencia",
@@ -1516,9 +1585,11 @@
       "nombre": "Nanna o el alma de las plantas",
       "autor": "Gustav Theodor Fechner",
       "coleccion": "IMAGINATIO VERA",
-      "escrito": true,
-      "disponible": true,
-      "emoji": "🧝🏿‍♀️"
+      "escrito": false,
+      "disponible": false,
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/nanna-o-el-alma-de-las-plantas/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-web-Nanna-324x503.png"
     }
   ]
 }
