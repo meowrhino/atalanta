@@ -466,12 +466,12 @@
       "numero": 43,
       "nombre": "Textos",
       "autor": "Nicolás Gómez Dávila",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/textos/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/43-davila-Portada_Textos-324x509.jpg"
     },
     {
       "numero": 44,
@@ -565,12 +565,12 @@
       "numero": 52,
       "nombre": "Mis aventuras con monjas",
       "autor": "Giacomo Casanova",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/mis-aventuras-con-monjas/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/casanova-monjas-324x509.jpg"
     },
     {
       "numero": 53,
@@ -587,12 +587,12 @@
       "numero": 54,
       "nombre": "Origen y presente",
       "autor": "Jean Gebser",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/origen-y-presente/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Plantilla-portada-web-Origen-y-presente-324x503.jpg"
     },
     {
       "numero": 55,
@@ -642,23 +642,23 @@
       "numero": 59,
       "nombre": "Vidas de Pitágoras",
       "autor": "David Hernández de la Fuente",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/vidas-de-pitagoras/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Pitagoras-3-324x492.jpg"
     },
     {
       "numero": 60,
       "nombre": "Socotra, la isla de los genios",
       "autor": "Jordi Esteva",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/socotra-la-isla-de-los-genios/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Plantilla-portada-web-Socotra-3-324x503.jpg"
     },
     {
       "numero": 61,
@@ -675,12 +675,12 @@
       "numero": 62,
       "nombre": "Mientras los dioses juegan",
       "autor": "Alain Daniélou",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/mientras-los-dioses-juegan/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/62-danielou-Portada_Dioses_juegan_prensa-324x509.jpg"
     },
     {
       "numero": 63,
@@ -708,12 +708,12 @@
       "numero": 65,
       "nombre": "Decadencia y caída del Imperio Romano I",
       "autor": "E. Gibbon",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/decadencia-y-caida-del-imperio-romano-i/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/65-Portada_Gibbon-324x509.jpg"
     },
     {
       "numero": 66,
@@ -763,12 +763,12 @@
       "numero": 70,
       "nombre": "Decadencia y caída del Imperio Romano II",
       "autor": "E. Gibbon",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/decadencia-y-caida-del-imperio-romano-ii/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/70-Cubierta_Gibbon_Alta_Tomo_2-324x509.jpg"
     },
     {
       "numero": 71,
