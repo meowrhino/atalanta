@@ -323,7 +323,7 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
-    },    
+    },
     {
       "numero": 37,
       "nombre": "El mito polar",
@@ -823,11 +823,10 @@
       "numero": 92,
       "nombre": "Salvar las apariencias",
       "autor": "Owen Barfield",
-<<<<<<< HEAD
-      "coleccion": "IMAGINATIO VERA",
-      "escrito": true,
-      "disponible": true,
-      "emoji": "🤲"
+      "coleccion": "",
+      "escrito": false,
+      "disponible": false,
+      "emoji": ""
     },
     {
       "numero": 93,
@@ -1394,6 +1393,7 @@
       "disponible": false,
       "emoji": ""
     },
+
     {
       "numero": 154,
       "nombre": "Pensar la ciencia",
