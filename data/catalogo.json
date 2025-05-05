@@ -785,12 +785,12 @@
       "numero": 72,
       "nombre": "El Palacio de Liria",
       "autor": "VV. AA.",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/el-palacio-de-liria/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/72-Cubierta_Liria-324x420.jpg"
     },
     {
       "numero": 73,
@@ -818,12 +818,12 @@
       "numero": 75,
       "nombre": "Los últimos años de Casanova",
       "autor": "Joseph Le Gras & Raoul Veze",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/los-ultimos-anos-de-casanova/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/75-Cubierta_Casanova-324x509.jpg"
     },
     {
       "numero": 76,
@@ -884,34 +884,34 @@
       "numero": 81,
       "nombre": "Sendas de Oku",
       "autor": "Matsuo Basho",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/sendas-de-oku/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/81-basho-Cubierta_Oku_Alta-324x509.jpg"
     },
     {
       "numero": 82,
       "nombre": "Manual de filosofía portátil",
       "autor": "Juan Arnau",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/manual-de-filosofia-portatil/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/82-arnau-Cubierta_Filo_portati_Alta-324x509.jpg"
     },
     {
       "numero": 83,
       "nombre": "La senda de las nubes blancas",
       "autor": "Lama Anagarika Govinda",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/la-senda-de-las-nubes-blancas/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/83-Govinda-arrastrado1-324x509.jpg"
     },
     {
       "numero": 84,
@@ -928,23 +928,23 @@
       "numero": 85,
       "nombre": "Filosofía para desencantados",
       "autor": "Leonardo da Jandra",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/filosofia-para-desencantados/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/85-jandra-Portada-Filo-desencantados-Alta-324x509.jpg"
     },
     {
       "numero": 86,
       "nombre": "Itinerario poético",
       "autor": "Octavio Paz",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/itinerario-poetico/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/86-Cubierta_Paz_Alta-324x509.jpg"
     },
     {
       "numero": 87,
@@ -1016,23 +1016,23 @@
       "numero": 93,
       "nombre": "El arte de morir",
       "autor": "Peter y Elizabeth Fenwick",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/el-arte-de-morir/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/93-fenwick-Portada_Arte_de_morir_Alta-324x509.jpg"
     },
     {
       "numero": 94,
       "nombre": "Capturar la luz",
       "autor": "Arthur Zajonc",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/capturar-la-luz/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/zajonc-luz-324x509.jpg"
     },
     {
       "numero": 95,
@@ -1049,12 +1049,12 @@
       "numero": 96,
       "nombre": "Libros, secretos",
       "autor": "Jacobo Siruela",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/libros-secretos/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/96-siruela-Portada-Libros-Secretos-324x509.jpg"
     },
     {
       "numero": 97,
@@ -1082,12 +1082,12 @@
       "numero": 99,
       "nombre": "Bhagavadgītā",
       "autor": "Edición de Juan Arnau",
-      "coleccion": "",
+      "coleccion": "Memoria Mundi",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/bhagavadgita/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Bhagavadgita-3a-324x496.jpg"
     },
     {
       "numero": 100,
