@@ -22,17 +22,17 @@
       "link": "https://www.edicionesatalanta.com/catalogo/sin-manana/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/2-denon-CUBIERTA_Sinmanana-324x509.jpg"
     },
-    {
-      "numero": 3,
-      "nombre": "La historia de Genji I",
-      "autor": "Murasaki Shikibu",
-      "coleccion": "",
-      "escrito": false,
-      "disponible": false,
-      "emoji": "",
-      "link": "",
-      "portada": ""
-    },
+{
+  "numero": 3,
+  "nombre": "La historia de Genji I",
+  "autor": "Murasaki Shikibu",
+  "coleccion": "MEMORIA MUNDI",
+  "escrito": false,
+  "disponible": false,
+  "emoji": "",
+  "link": "https://www.edicionesatalanta.com/catalogo/la-historia-de-genji/",
+  "portada": "https://www.edicionesatalanta.com/wp-content/uploads/3-shikibu-Cubierta_Genji_I-324x420.jpg"
+}
     {
       "numero": 4,
       "nombre": "El fuego secreto de los filósofos",
@@ -77,39 +77,39 @@
       "link": "https://www.edicionesatalanta.com/catalogo/la-voz-maligna/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/lee-maligna-324x509.jpg"
     },
-    {
-      "numero": 8,
-      "nombre": "En los oscuros lugares del saber",
-      "autor": "Peter Kingsley",
-      "coleccion": "",
-      "escrito": false,
-      "disponible": false,
-      "emoji": "",
-      "link": "",
-      "portada": ""
-    },
-    {
-      "numero": 9,
-      "nombre": "La historia de Genji II",
-      "autor": "Murasaki Shikibu",
-      "coleccion": "",
-      "escrito": false,
-      "disponible": false,
-      "emoji": "",
-      "link": "",
-      "portada": ""
-    },
-    {
-      "numero": 10,
-      "nombre": "Yijing. El libro de los cambios",
-      "autor": "",
-      "coleccion": "",
-      "escrito": false,
-      "disponible": false,
-      "emoji": "",
-      "link": "",
-      "portada": ""
-    },
+{
+  "numero": 8,
+  "nombre": "En los oscuros lugares del saber",
+  "autor": "Peter Kingsley",
+  "coleccion": "MEMORIA MUNDI",
+  "escrito": false,
+  "disponible": false,
+  "emoji": "",
+  "link": "https://www.edicionesatalanta.com/catalogo/en-los-oscuros-lugares-del-saber/",
+  "portada": "https://www.edicionesatalanta.com/wp-content/uploads/44-Portada_Kingsley-324x509.jpg"
+},
+{
+  "numero": 9,
+  "nombre": "La historia de Genji II",
+  "autor": "M. Shikibu",
+  "coleccion": "MEMORIA MUNDI",
+  "escrito": false,
+  "disponible": false,
+  "emoji": "",
+  "link": "https://www.edicionesatalanta.com/catalogo/genji-ii-los-relatos-de-uji/",
+  "portada": "https://www.edicionesatalanta.com/wp-content/uploads/9-shikibu-Cubierta_Genji_II-324x420.jpg"
+},
+{
+  "numero": 10,
+  "nombre": "Yijing. El libro de los cambios",
+  "autor": "Con el comentario de Wang Bi",
+  "coleccion": "MEMORIA MUNDI",
+  "escrito": false,
+  "disponible": false,
+  "emoji": "",
+  "link": "https://www.edicionesatalanta.com/catalogo/yijing/",
+  "portada": "https://www.edicionesatalanta.com/wp-content/uploads/10-Cubierta_Yijing-324x509.jpg"
+}
     {
       "numero": 11,
       "nombre": "Los ojos de Davidson",
@@ -187,17 +187,17 @@
       "link": "https://www.edicionesatalanta.com/catalogo/confesiones-de-un-opiofago-ingles/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/17_-quincey-cubierta_Confesiones_Quincey-324x509.jpg"
     },
-    {
-      "numero": 18,
-      "nombre": "El gran duque de Alba",
-      "autor": "William S. Maltby",
-      "coleccion": "",
-      "escrito": false,
-      "disponible": false,
-      "emoji": "",
-      "link": "",
-      "portada": ""
-    },
+{
+  "numero": 18,
+  "nombre": "El gran duque de Alba",
+  "autor": "William S. Maltby",
+  "coleccion": "MEMORIA MUNDI",
+  "escrito": false,
+  "disponible": false,
+  "emoji": "",
+  "link": "https://www.edicionesatalanta.com/catalogo/el-gran-duque-de-alba/",
+  "portada": "https://www.edicionesatalanta.com/wp-content/uploads/18-maltby-Cubierta_Alba-324x509.jpg"
+}
     {
       "numero": 19,
       "nombre": "El arte de conversar",
@@ -209,17 +209,17 @@
       "link": "https://www.edicionesatalanta.com/catalogo/el-arte-de-conversar/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Wilde-para-NL-324x518.jpg"
     },
-    {
-      "numero": 20,
-      "nombre": "El mundo del príncipe resplandeciente",
-      "autor": "Ivan Morris",
-      "coleccion": "",
-      "escrito": false,
-      "disponible": false,
-      "emoji": "",
-      "link": "",
-      "portada": ""
-    },
+{
+  "numero": 20,
+  "nombre": "El mundo del príncipe resplandeciente",
+  "autor": "Ivan Morris",
+  "coleccion": "MEMORIA MUNDI",
+  "escrito": false,
+  "disponible": false,
+  "emoji": "",
+  "link": "https://www.edicionesatalanta.com/catalogo/el-mundo-del-principe-resplandeciente/",
+  "portada": "https://www.edicionesatalanta.com/wp-content/uploads/20-morris-Portada_Principe_2-324x509.jpg"
+}
     {
       "numero": 21,
       "nombre": "La fuga de Atalanta",
@@ -242,28 +242,28 @@
       "link": "",
       "portada": ""
     },
-    {
-      "numero": 23,
-      "nombre": "Cosmos y Psique",
-      "autor": "Richard Tarnas",
-      "coleccion": "",
-      "escrito": false,
-      "disponible": false,
-      "emoji": "",
-      "link": "",
-      "portada": ""
-    },
-    {
-      "numero": 24,
-      "nombre": "Universos paralelos",
-      "autor": "Michio Kaku",
-      "coleccion": "",
-      "escrito": false,
-      "disponible": false,
-      "emoji": "",
-      "link": "",
-      "portada": ""
-    },
+{
+  "numero": 23,
+  "nombre": "Cosmos y Psique",
+  "autor": "Richard Tarnas",
+  "coleccion": "MEMORIA MUNDI",
+  "escrito": false,
+  "disponible": false,
+  "emoji": "",
+  "link": "https://www.edicionesatalanta.com/catalogo/cosmos-y-psique/",
+  "portada": "https://www.edicionesatalanta.com/wp-content/uploads/23-tarnas-Cosmos-y-Psique-324x509.jpg"
+},
+{
+  "numero": 24,
+  "nombre": "Universos paralelos",
+  "autor": "Michio Kaku",
+  "coleccion": "MEMORIA MUNDI",
+  "escrito": false,
+  "disponible": false,
+  "emoji": "",
+  "link": "https://www.edicionesatalanta.com/catalogo/universos-paralelos/",
+  "portada": "https://www.edicionesatalanta.com/wp-content/uploads/24-kaku-Universos-paralelos-324x509.jpg"
+}
     {
       "numero": 25,
       "nombre": "Hombres salmonela en el planeta porno",
