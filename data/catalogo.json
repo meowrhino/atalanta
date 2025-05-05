@@ -4,23 +4,23 @@
       "numero": 1,
       "nombre": "El copartícipe secreto",
       "autor": "Joseph Conrad",
-      "coleccion": "",
+      "coleccion": "ARS BREVIS",
       "escrito": false,
       "disponible": true,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/el-coparticipe-secreto/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/portada-el-coparticipe-secreto-324x502.jpg"
     },
     {
       "numero": 2,
       "nombre": "Sin mañana",
       "autor": "Vivant Denon",
-      "coleccion": "",
+      "coleccion": "ARS BREVIS",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/sin-manana/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/2-denon-CUBIERTA_Sinmanana-324x509.jpg"
     },
     {
       "numero": 3,
@@ -48,12 +48,12 @@
       "numero": 5,
       "nombre": "Amor y Psique",
       "autor": "Apuleyo",
-      "coleccion": "",
+      "coleccion": "ARS BREVIS",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/amor-y-psique/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/apuleyo-amor-i-psique-324x509.jpg"
     },
     {
       "numero": 6,
@@ -70,12 +70,12 @@
       "numero": 7,
       "nombre": "La voz maligna",
       "autor": "Vernon Lee",
-      "coleccion": "",
+      "coleccion": "ARS BREVIS",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/la-voz-maligna/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/lee-maligna-324x509.jpg"
     },
     {
       "numero": 8,
