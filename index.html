@@ -199,8 +199,7 @@
       .libros .grupo h3 {
         color: white;
         font-weight: 200;
-        text-align: right;
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin: 0.5rem 0 1rem;
       }
     </style>
@@ -232,7 +231,6 @@
     </section>
 
     <section>
-      <h2>No disponibles en stock</h2>
       <div class="faltantes" id="faltantes"></div>
     </section>
 
@@ -322,17 +320,6 @@
           renderGrupo(disponiblesAgrupados, "libros", true);
           renderGrupo(noDisponiblesAgrupados, "faltantes", false);
         }
-
-        const total = window.catalogo.length;
-        const faltan = noDisponibles.length;
-        const contFaltantes = document.getElementById("faltantes");
-        const resumen = document.createElement("div");
-        resumen.style.marginTop = "1rem";
-        resumen.style.fontSize = "0.9rem";
-        resumen.style.textAlign = "right";
-        resumen.style.color = "white";
-        resumen.innerText = `${faltan} / ${total} libros no disponibles`;
-        contFaltantes.appendChild(resumen);
       }
 
       function renderGrupo(grupos, contId, disponibles) {
@@ -351,6 +338,15 @@
             : grupos[grupo].map(renderLibroNoDisponible).join("");
 
           grupoDiv.innerHTML += librosHTML;
+          const total = window.catalogo.length;
+          const faltan = noDisponibles.length;
+          const contFaltantes = document.getElementById("faltantes");
+          const resumen = document.createElement("div");
+          resumen.style.marginTop = "1rem";
+          resumen.style.fontSize = "0.9rem";
+          resumen.style.textAlign = "right";
+          resumen.innerText = `${faltan} / ${total} libros no disponibles`;
+          contFaltantes.appendChild(resumen);
           cont.appendChild(grupoDiv);
         }
       }
