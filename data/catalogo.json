@@ -149,7 +149,7 @@
       "autor": "Patrick Harpur",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/realidad-daimonica/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Cubierta-Realidad-daimonica-3-324x503.jpg"
@@ -303,7 +303,7 @@
       "autor": "Peter Kingsley",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/filosofia-antigua-misterios-y-magia/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/28-kingsley-Cubierta_Filosofia_antigua_Alta-324x509.jpg"
@@ -479,7 +479,7 @@
       "autor": "Peter Kingsley",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/en-los-oscuros-lugares-del-saber/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/44-Portada_Kingsley-324x509.jpg"
@@ -809,7 +809,7 @@
       "autor": "Patrick Harpur",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/la-tradicion-oculta-del-alma/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/74-Nueva_cubierta_Alma_Harpur-324x509.jpg"
@@ -842,7 +842,7 @@
       "autor": "J. Campbell",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/las-extensiones-interiores-del-espacio-exterior/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/77-campbell-Cubierta-Extensiones-Interiores-324x509.jpg"
@@ -995,8 +995,8 @@
       "nombre": "Mercurius",
       "autor": "Patrick Harpur",
       "coleccion": "IMAGINATIO VERA",
-      "escrito": false,
-      "disponible": false,
+      "escrito": true,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/mercurius-o-el-matrimonio-del-cielo-y-la-tierra/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/91-harpur-Portada-Mercurius-Alta-324x509.jpg"
@@ -1205,7 +1205,7 @@
       "autor": "Joseph Campbell",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/las-mascaras-de-dios-i-mitologia-primitiva/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/110-campbell-Portada-Mascaras-de-dios-1-324x509.jpg"
@@ -1249,7 +1249,7 @@
       "autor": "Joseph Campbell",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/las-mascaras-de-dios-ii-mitologia-oriental/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/114-campbell-cubierta-LAS-MASCARAS-DE-DIOS_II-324x509.jpg"
@@ -1293,7 +1293,7 @@
       "autor": "Joseph Campbell",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/las-mascaras-de-dios-iii-mitologia-occidental/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/118-campbell-Portada_Mascarasdedios_III-324x509.jpg"
@@ -1348,7 +1348,7 @@
       "autor": "Joseph Campbell",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/las-mascaras-de-dios-iv-mitologia-creativa/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Mascaras-IV-324x503.jpg"
@@ -1414,7 +1414,7 @@
       "autor": "Joseph Campbell",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/la-historia-del-grial/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Cubierta-Grial-324x507.jpg"
@@ -1436,7 +1436,7 @@
       "autor": "Joseph Campbell",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/tu-eres-eso/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Tu-eres-eso-portada-324x507.jpg"
@@ -1480,7 +1480,7 @@
       "autor": "Gary Lachman",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-conocimiento-perdido-de-la-imaginacion/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Conocimiento-perdido-324x503.jpg"
@@ -1524,7 +1524,7 @@
       "autor": "Joseph Campbell",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-heroe-de-las-mil-caras/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Heroe-mil-caras-1-324x503.jpg"
@@ -1589,8 +1589,8 @@
       "nombre": "Realidad",
       "autor": "Peter Kingsley",
       "coleccion": "MEMORIA MUNDI",
-      "escrito": false,
-      "disponible": false,
+      "escrito": true,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/realidad/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Plantilla-portada-web-Realidad-324x503.jpg"
@@ -1633,8 +1633,8 @@
       "nombre": "El vuelco",
       "autor": "Jeffrey J. Kripal",
       "coleccion": "MEMORIA MUNDI",
-      "escrito": false,
-      "disponible": false,
+      "escrito": true,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-vuelco/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-El-vuelco-324x495.jpg"
@@ -1766,7 +1766,7 @@
       "autor": "VV. AA.",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/pitagoras-y-la-ciencia-sagrada/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/CUBIERTA-PITAGORAS-324x510.png"
@@ -1799,7 +1799,7 @@
       "autor": "Joseph Campbell",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/mito-y-sentido/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Web-Mito-y-sentido-324x503.jpg"
