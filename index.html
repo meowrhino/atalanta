@@ -111,7 +111,7 @@
     <script>
       async function cargarCatalogo() {
         try {
-          const res = await fetch("../data/catalogo.json");
+          const res = await fetch("data/catalogo.json");
           const json = await res.json();
           const disponibles = json.catalogo.filter(l => l.disponible);
           const noDisponibles = json.catalogo.filter(l => !l.disponible);
