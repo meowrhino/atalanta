@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biblioteca Atalanta</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet" />
     <style>
       :root {
         --rojo: #c0392b;
@@ -23,8 +20,7 @@
         color: var(--rojo);
       }
 
-      h1,
-      h2 {
+      h1, h2 {
         text-align: center;
         font-weight: 200;
         color: var(--rojo);
@@ -34,14 +30,32 @@
         margin-bottom: 3rem;
       }
 
+      .filtros {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 2rem;
+        padding-right: 1rem;
+      }
+
+      .filtros select {
+        background: var(--azul);
+        color: var(--rojo);
+        border: 1px solid var(--rojo);
+        padding: 0.3rem 0.6rem;
+        font-family: inherit;
+        font-size: 0.9rem;
+      }
+
       .libros {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        display: flex;
+        flex-wrap: wrap;
         gap: 1.5rem;
         margin-top: 2rem;
+        justify-content: flex-start;
       }
 
       .libro {
+        width: 180px;
         background: var(--azul);
         padding: 1rem;
         border-radius: 2px;
@@ -50,11 +64,50 @@
         align-items: center;
         text-align: center;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        position: relative;
+      }
+
+      .libro .numero {
+        position: absolute;
+        top: 0.4rem;
+        left: 0.5rem;
+        font-size: 0.7rem;
+        color: var(--rojo);
+        font-family: "Noto Sans JP", sans-serif;
       }
 
       .libro img {
         width: 100%;
         margin-bottom: 0.5rem;
+        transition: 0.3s ease;
+      }
+
+      .libro a {
+        color: inherit;
+        text-decoration: none;
+        display: block;
+        position: relative;
+      }
+
+      .libro a::after {
+        content: "VER EN PÁGINA OFICIAL ATALANTA";
+        color: white;
+        font-size: 0.7rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.3s ease;
+      }
+
+      .libro a:hover img {
+        filter: brightness(0.6);
+      }
+
+      .libro a:hover::after {
+        opacity: 1;
       }
 
       .libro h3 {
@@ -86,34 +139,28 @@
         border-radius: 2px;
       }
 
-      .faltante {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+      .faltante a {
         color: white;
+        text-decoration: none;
+        display: inline-block;
+        transition: all 0.3s ease;
+      }
+
+      .faltante a:hover {
+        color: var(--rojo);
+        text-decoration: underline;
+      }
+
+      .faltante .autor {
+        color: var(--rojo);
+        font-weight: 400;
+        font-size: 0.85rem;
       }
 
       .prestado {
         font-style: italic;
         color: var(--rojo);
-        margin-left: 1rem;
-      }
-
-      .filtros {
-        display: flex;
-        gap: 1rem;
-        justify-content: center;
-        margin-bottom: 2rem;
-      }
-
-      .filtros select,
-      .filtros button {
-        background: var(--azul);
-        color: var(--rojo);
-        border: 1px solid var(--rojo);
-        padding: 0.3rem 0.6rem;
-        font-family: inherit;
-        font-size: 0.9rem;
+        font-size: 0.85rem;
       }
 
       .grupo {
@@ -128,20 +175,7 @@
         font-weight: 200;
         text-align: left;
         font-size: 1.1rem;
-        margin: 0.5rem 0;
-        grid-column: 1 / -1;
-      }
-
-      .libro a {
-        color: inherit;
-        text-decoration: none;
-        display: block;
-      }
-
-      .faltante .autor {
-        color: var(--rojo);
-        font-weight: 400;
-        margin-left: 0.5rem;
+        margin: 0.5rem 0 1rem;
       }
     </style>
   </head>
@@ -149,6 +183,14 @@
     <h1>Biblioteca Atalanta</h1>
 
     <section>
+      <div class="filtros">
+        <select id="selectorAgrupar">
+          <option value="numero">Ordenar por número</option>
+          <option value="coleccion">Agrupar por colección</option>
+          <option value="autor">Agrupar por autor</option>
+        </select>
+      </div>
+
       <h2>Libros en stock</h2>
       <div class="libros" id="libros"></div>
     </section>
@@ -165,8 +207,11 @@
           const json = await res.json();
           window.catalogo = json.catalogo;
 
-          iniciarFiltros(json.catalogo);
-          renderAgrupado("coleccion");
+          document.getElementById("selectorAgrupar").addEventListener("change", e => {
+            renderAgrupado(e.target.value);
+          });
+
+          renderAgrupado("numero");
         } catch (err) {
           console.error("Error cargando catálogo:", err);
         }
@@ -203,8 +248,8 @@
 
       function renderAgrupado(criterio) {
         limpiarContenedores();
-        const disponibles = window.catalogo.filter((l) => l.disponible);
-        const noDisponibles = window.catalogo.filter((l) => !l.disponible);
+        const disponibles = window.catalogo.filter(l => l.disponible);
+        const noDisponibles = window.catalogo.filter(l => !l.disponible);
 
         const disponiblesAgrupados = agruparPor(disponibles, criterio);
         const noDisponiblesAgrupados = agruparPor(noDisponibles, criterio);
@@ -212,7 +257,6 @@
         renderGrupo(disponiblesAgrupados, "libros", true);
         renderGrupo(noDisponiblesAgrupados, "faltantes", false);
 
-        // Contador al final de los faltantes
         const total = window.catalogo.length;
         const faltan = noDisponibles.length;
         const contFaltantes = document.getElementById("faltantes");
@@ -246,6 +290,7 @@
       function renderLibroDisponible(libro) {
         return `
           <div class="libro${libro.escrito ? " escrito" : ""}">
+            <div class="numero">${libro.numero}</div>
             <a href="${libro.link}" target="_blank">
               <img src="${libro.portada}" alt="Portada del libro '${libro.nombre}' de ${libro.autor}">
               <h3>${libro.nombre}</h3>
@@ -257,14 +302,11 @@
       function renderLibroNoDisponible(libro) {
         return `
           <div class="faltante">
-            <span>${libro.numero}. ${libro.nombre} <span class="autor">${
-          libro.autor
-        }</span></span>
-            ${
-              libro.prestado
-                ? `<span class="prestado">Prestado a ${libro.prestado}</span>`
-                : ""
-            }
+            <div>
+              <a href="${libro.link}" target="_blank">${libro.numero}. ${libro.nombre}</a><br/>
+              <span class="autor">${libro.autor}</span>
+            </div>
+            ${libro.prestado ? `<span class="prestado">Prestado a ${libro.prestado}</span>` : ""}
           </div>`;
       }
 
