@@ -202,11 +202,22 @@
 
     <section>
       <div class="filtros">
-        <select id="selectorAgrupar">
-          <option value="numero">Ordenar por número</option>
-          <option value="coleccion">Agrupar por colección</option>
-          <option value="autor">Agrupar por autor</option>
-        </select>
+        <label style="margin-right: 1rem">
+          Ordenar por:
+          <select id="selectorOrdenar">
+            <option value="numero">Número</option>
+            <option value="autor">Autor</option>
+          </select>
+        </label>
+
+        <label>
+          Agrupar por:
+          <select id="selectorAgrupar">
+            <option value="ninguno">Ninguno</option>
+            <option value="coleccion">Colección</option>
+            <option value="autor">Autor</option>
+          </select>
+        </label>
       </div>
 
       <h2>Libros en stock</h2>
@@ -226,12 +237,17 @@
           window.catalogo = json.catalogo;
 
           document
+            .getElementById("selectorOrdenar")
+            .addEventListener("change", () => {
+              renderAgrupado();
+            });
+          document
             .getElementById("selectorAgrupar")
-            .addEventListener("change", (e) => {
-              renderAgrupado(e.target.value);
+            .addEventListener("change", () => {
+              renderAgrupado();
             });
 
-          renderAgrupado("numero");
+          renderAgrupado();
         } catch (err) {
           console.error("Error cargando catálogo:", err);
         }
@@ -266,16 +282,39 @@
         document.getElementById("faltantes").innerHTML = "";
       }
 
-      function renderAgrupado(criterio) {
+      function renderAgrupado() {
         limpiarContenedores();
-        const disponibles = window.catalogo.filter((l) => l.disponible);
-        const noDisponibles = window.catalogo.filter((l) => !l.disponible);
 
-        const disponiblesAgrupados = agruparPor(disponibles, criterio);
-        const noDisponiblesAgrupados = agruparPor(noDisponibles, criterio);
+        const criterioOrden = document.getElementById("selectorOrdenar").value;
+        const criterioAgrupar =
+          document.getElementById("selectorAgrupar").value;
 
-        renderGrupo(disponiblesAgrupados, "libros", true);
-        renderGrupo(noDisponiblesAgrupados, "faltantes", false);
+        const disponibles = [...window.catalogo.filter((l) => l.disponible)];
+        const noDisponibles = [...window.catalogo.filter((l) => !l.disponible)];
+
+        disponibles.sort((a, b) => {
+          if (criterioOrden === "numero") return a.numero - b.numero;
+          return a.autor.localeCompare(b.autor);
+        });
+
+        noDisponibles.sort((a, b) => {
+          if (criterioOrden === "numero") return a.numero - b.numero;
+          return a.autor.localeCompare(b.autor);
+        });
+
+        if (criterioAgrupar === "ninguno") {
+          renderGrupo({ "": disponibles }, "libros", true);
+          renderGrupo({ "": noDisponibles }, "faltantes", false);
+        } else {
+          const disponiblesAgrupados = agruparPor(disponibles, criterioAgrupar);
+          const noDisponiblesAgrupados = agruparPor(
+            noDisponibles,
+            criterioAgrupar
+          );
+
+          renderGrupo(disponiblesAgrupados, "libros", true);
+          renderGrupo(noDisponiblesAgrupados, "faltantes", false);
+        }
 
         const total = window.catalogo.length;
         const faltan = noDisponibles.length;
@@ -291,10 +330,12 @@
 
       function renderGrupo(grupos, contId, disponibles) {
         const cont = document.getElementById(contId);
-        for (const grupo in grupos) {
+        const claves = Object.keys(grupos).sort((a, b) => a.localeCompare(b));
+
+        for (const grupo of claves) {
           const grupoDiv = document.createElement("div");
           grupoDiv.className = "grupo";
-          grupoDiv.innerHTML = `<h3>${grupo}</h3>`;
+          if (grupo) grupoDiv.innerHTML = `<h3>${grupo}</h3>`;
 
           const librosHTML = disponibles
             ? `<div class="libros">${grupos[grupo]
@@ -309,33 +350,31 @@
 
       function renderLibroDisponible(libro) {
         return `
-          <div class="libro${libro.escrito ? " escrito" : ""}">
-            <div class="numero">${libro.numero}</div>
-            <a href="${libro.link}" target="_blank">
-              <img src="${libro.portada}" alt="Portada del libro '${
+    <div class="libro${libro.escrito ? " escrito" : ""}">
+      <div class="numero">${libro.numero}</div>
+      <a href="${libro.link}" target="_blank">
+        <img src="${libro.portada}" alt="Portada del libro '${
           libro.nombre
         }' de ${libro.autor}">
-              <h3>${libro.nombre}</h3>
-              <p>${libro.autor}</p>
-            </a>
-          </div>`;
+        <h3>${libro.nombre}</h3>
+        <p>${libro.autor}</p>
+      </a>
+    </div>`;
       }
 
       function renderLibroNoDisponible(libro) {
         return `
-          <div class="faltante">
-            <div>
-              <a href="${libro.link}" target="_blank">${libro.numero}. ${
-          libro.nombre
-        }</a><br/>
-              <span class="autor">${libro.autor}</span>
-            </div>
-            ${
-              libro.prestado
-                ? `<span class="prestado">Prestado a ${libro.prestado}</span>`
-                : ""
-            }
-          </div>`;
+    <div class="faltante">
+      <div>
+        <a href="${libro.link}" target="_blank">${libro.nombre}</a><br/>
+        <span class="autor">${libro.autor}</span>
+      </div>
+      ${
+        libro.prestado
+          ? `<span class="prestado">Prestado a ${libro.prestado}</span>`
+          : ""
+      }
+    </div>`;
       }
 
       cargarCatalogo();
