@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biblioteca Atalanta</title>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Noto+Sans+JP:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <style>
       :root {
         --rojo: #c0392b;
@@ -20,14 +23,17 @@
         color: var(--rojo);
       }
 
-      h1, h2 {
+      h1,
+      h2 {
         text-align: center;
         font-weight: 200;
         color: var(--rojo);
       }
 
       section {
-        margin-bottom: 3rem;
+        max-width: 1200px; /* o 1600px si prefieres más ancho */
+        margin: 0 auto 3rem auto;
+        padding: 0 1rem;
       }
 
       .filtros {
@@ -40,10 +46,21 @@
       .filtros select {
         background: var(--azul);
         color: var(--rojo);
-        border: 1px solid var(--rojo);
+        border: none;
+        border-bottom: 1px solid var(--rojo);
         padding: 0.3rem 0.6rem;
         font-family: inherit;
         font-size: 0.9rem;
+        appearance: none;
+        -webkit-appearance: none;
+        border-radius: 0;
+        cursor: pointer;
+        transition: all 0.2s ease;
+      }
+
+      .filtros select:hover {
+        color: white;
+        border-bottom: 1px solid white;
       }
 
       .libros {
@@ -51,7 +68,7 @@
         flex-wrap: wrap;
         gap: 1.5rem;
         margin-top: 2rem;
-        justify-content: flex-start;
+        justify-content: center;
       }
 
       .libro {
@@ -207,9 +224,11 @@
           const json = await res.json();
           window.catalogo = json.catalogo;
 
-          document.getElementById("selectorAgrupar").addEventListener("change", e => {
-            renderAgrupado(e.target.value);
-          });
+          document
+            .getElementById("selectorAgrupar")
+            .addEventListener("change", (e) => {
+              renderAgrupado(e.target.value);
+            });
 
           renderAgrupado("numero");
         } catch (err) {
@@ -248,8 +267,8 @@
 
       function renderAgrupado(criterio) {
         limpiarContenedores();
-        const disponibles = window.catalogo.filter(l => l.disponible);
-        const noDisponibles = window.catalogo.filter(l => !l.disponible);
+        const disponibles = window.catalogo.filter((l) => l.disponible);
+        const noDisponibles = window.catalogo.filter((l) => !l.disponible);
 
         const disponiblesAgrupados = agruparPor(disponibles, criterio);
         const noDisponiblesAgrupados = agruparPor(noDisponibles, criterio);
@@ -292,7 +311,9 @@
           <div class="libro${libro.escrito ? " escrito" : ""}">
             <div class="numero">${libro.numero}</div>
             <a href="${libro.link}" target="_blank">
-              <img src="${libro.portada}" alt="Portada del libro '${libro.nombre}' de ${libro.autor}">
+              <img src="${libro.portada}" alt="Portada del libro '${
+          libro.nombre
+        }' de ${libro.autor}">
               <h3>${libro.nombre}</h3>
               <p>${libro.autor}</p>
             </a>
@@ -303,10 +324,16 @@
         return `
           <div class="faltante">
             <div>
-              <a href="${libro.link}" target="_blank">${libro.numero}. ${libro.nombre}</a><br/>
+              <a href="${libro.link}" target="_blank">${libro.numero}. ${
+          libro.nombre
+        }</a><br/>
               <span class="autor">${libro.autor}</span>
             </div>
-            ${libro.prestado ? `<span class="prestado">Prestado a ${libro.prestado}</span>` : ""}
+            ${
+              libro.prestado
+                ? `<span class="prestado">Prestado a ${libro.prestado}</span>`
+                : ""
+            }
           </div>`;
       }
 
