@@ -38,9 +38,9 @@
 
       .filtros {
         display: flex;
-        justify-content: flex-end;
+        flex-direction: column;
+        align-items: flex-end;
         margin-bottom: 2rem;
-        padding-right: 1rem;
       }
 
       .filtros select {
@@ -209,7 +209,6 @@
 
     <section>
       <div class="filtros">
-        <label style="margin-right: 1rem">
           Ordenar por:
           <select id="selectorOrdenar">
             <option value="numero">Número</option>
