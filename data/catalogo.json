@@ -22,17 +22,17 @@
       "link": "https://www.edicionesatalanta.com/catalogo/sin-manana/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/2-denon-CUBIERTA_Sinmanana-324x509.jpg"
     },
-{
-  "numero": 3,
-  "nombre": "La historia de Genji I",
-  "autor": "Murasaki Shikibu",
-  "coleccion": "MEMORIA MUNDI",
-  "escrito": false,
-  "disponible": false,
-  "emoji": "",
-  "link": "https://www.edicionesatalanta.com/catalogo/la-historia-de-genji/",
-  "portada": "https://www.edicionesatalanta.com/wp-content/uploads/3-shikibu-Cubierta_Genji_I-324x420.jpg"
-}
+    {
+      "numero": 3,
+      "titulo": "La historia de Genji",
+      "autor": "Murasaki Shikibu",
+      "coleccion": "MEMORIA MUNDI",
+      "escrito": false,
+      "disponible": false,
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/la-historia-de-genji/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/3-shikibu-Cubierta_Genji_I-324x420.jpg"
+    },
     {
       "numero": 4,
       "nombre": "El fuego secreto de los filósofos",
@@ -77,39 +77,39 @@
       "link": "https://www.edicionesatalanta.com/catalogo/la-voz-maligna/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/lee-maligna-324x509.jpg"
     },
-{
-  "numero": 8,
-  "nombre": "En los oscuros lugares del saber",
-  "autor": "Peter Kingsley",
-  "coleccion": "MEMORIA MUNDI",
-  "escrito": false,
-  "disponible": false,
-  "emoji": "",
-  "link": "https://www.edicionesatalanta.com/catalogo/en-los-oscuros-lugares-del-saber/",
-  "portada": "https://www.edicionesatalanta.com/wp-content/uploads/44-Portada_Kingsley-324x509.jpg"
-},
-{
-  "numero": 9,
-  "nombre": "La historia de Genji II",
-  "autor": "M. Shikibu",
-  "coleccion": "MEMORIA MUNDI",
-  "escrito": false,
-  "disponible": false,
-  "emoji": "",
-  "link": "https://www.edicionesatalanta.com/catalogo/genji-ii-los-relatos-de-uji/",
-  "portada": "https://www.edicionesatalanta.com/wp-content/uploads/9-shikibu-Cubierta_Genji_II-324x420.jpg"
-},
-{
-  "numero": 10,
-  "nombre": "Yijing. El libro de los cambios",
-  "autor": "Con el comentario de Wang Bi",
-  "coleccion": "MEMORIA MUNDI",
-  "escrito": false,
-  "disponible": false,
-  "emoji": "",
-  "link": "https://www.edicionesatalanta.com/catalogo/yijing/",
-  "portada": "https://www.edicionesatalanta.com/wp-content/uploads/10-Cubierta_Yijing-324x509.jpg"
-}
+    {
+      "numero": 8,
+      "nombre": "En los oscuros lugares del saber",
+      "autor": "Peter Kingsley",
+      "coleccion": "MEMORIA MUNDI",
+      "escrito": false,
+      "disponible": false,
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/en-los-oscuros-lugares-del-saber/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/44-Portada_Kingsley-324x509.jpg"
+    },
+    {
+      "numero": 9,
+      "titulo": "Genji II: Los relatos de Uji",
+      "autor": "Murasaki Shikibu",
+      "coleccion": "MEMORIA MUNDI",
+      "escrito": false,
+      "disponible": false,
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/genji-ii-los-relatos-de-uji/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/9-shikibu-Cubierta_Genji_II-324x420.jpg"
+    },
+    {
+      "numero": 10,
+      "titulo": "Yijing",
+      "autor": "Con el comentario de Wang Bi",
+      "coleccion": "MEMORIA MUNDI",
+      "escrito": false,
+      "disponible": false,
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/yijing/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/10-Cubierta_Yijing-324x509.jpg"
+    },
     {
       "numero": 11,
       "nombre": "Los ojos de Davidson",
@@ -187,17 +187,17 @@
       "link": "https://www.edicionesatalanta.com/catalogo/confesiones-de-un-opiofago-ingles/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/17_-quincey-cubierta_Confesiones_Quincey-324x509.jpg"
     },
-{
-  "numero": 18,
-  "nombre": "El gran duque de Alba",
-  "autor": "William S. Maltby",
-  "coleccion": "MEMORIA MUNDI",
-  "escrito": false,
-  "disponible": false,
-  "emoji": "",
-  "link": "https://www.edicionesatalanta.com/catalogo/el-gran-duque-de-alba/",
-  "portada": "https://www.edicionesatalanta.com/wp-content/uploads/18-maltby-Cubierta_Alba-324x509.jpg"
-}
+    {
+      "numero": 18,
+      "nombre": "El Gran Duque de Alba",
+      "autor": "William S. Maltby",
+      "coleccion": "Casa de Alba",
+      "escrito": false,
+      "disponible": false,
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/el-gran-duque-de-alba-copia/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/41atu886m9L._SX318_BO1204203200_.jpg"
+    },
     {
       "numero": 19,
       "nombre": "El arte de conversar",
@@ -209,17 +209,17 @@
       "link": "https://www.edicionesatalanta.com/catalogo/el-arte-de-conversar/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Wilde-para-NL-324x518.jpg"
     },
-{
-  "numero": 20,
-  "nombre": "El mundo del príncipe resplandeciente",
-  "autor": "Ivan Morris",
-  "coleccion": "MEMORIA MUNDI",
-  "escrito": false,
-  "disponible": false,
-  "emoji": "",
-  "link": "https://www.edicionesatalanta.com/catalogo/el-mundo-del-principe-resplandeciente/",
-  "portada": "https://www.edicionesatalanta.com/wp-content/uploads/20-morris-Portada_Principe_2-324x509.jpg"
-}
+    {
+      "numero": 20,
+      "nombre": "El mundo del príncipe resplandeciente",
+      "autor": "Ivan Morris",
+      "coleccion": "MEMORIA MUNDI",
+      "escrito": false,
+      "disponible": false,
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/el-mundo-del-principe-resplandeciente/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/20-morris-Portada_Principe_2-324x509.jpg"
+    },
     {
       "numero": 21,
       "nombre": "La fuga de Atalanta",
@@ -235,35 +235,35 @@
       "numero": 22,
       "nombre": "Sueños y ensoñaciones de una dama",
       "autor": "Dama Sarashina",
-      "coleccion": "",
+      "coleccion": "ARS BREVIS",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/suenos-y-ensonaciones-de-una-dama-de-heian/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/22-sarashina-Cubierta_Dama_Sarashina-324x509.jpg"
     },
-{
-  "numero": 23,
-  "nombre": "Cosmos y Psique",
-  "autor": "Richard Tarnas",
-  "coleccion": "MEMORIA MUNDI",
-  "escrito": false,
-  "disponible": false,
-  "emoji": "",
-  "link": "https://www.edicionesatalanta.com/catalogo/cosmos-y-psique/",
-  "portada": "https://www.edicionesatalanta.com/wp-content/uploads/23-tarnas-Cosmos-y-Psique-324x509.jpg"
-},
-{
-  "numero": 24,
-  "nombre": "Universos paralelos",
-  "autor": "Michio Kaku",
-  "coleccion": "MEMORIA MUNDI",
-  "escrito": false,
-  "disponible": false,
-  "emoji": "",
-  "link": "https://www.edicionesatalanta.com/catalogo/universos-paralelos/",
-  "portada": "https://www.edicionesatalanta.com/wp-content/uploads/24-kaku-Universos-paralelos-324x509.jpg"
-}
+    {
+      "numero": 23,
+      "nombre": "Cosmos y Psique",
+      "autor": "Richard Tarnas",
+      "coleccion": "MEMORIA MUNDI",
+      "escrito": false,
+      "disponible": false,
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/cosmos-y-psique/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/23-tarnas-Portada_CosmosyPsique_3ed-324x509.jpg"
+    },
+    {
+      "numero": 24,
+      "nombre": "Universos paralelos",
+      "autor": "Michio Kaku",
+      "coleccion": "MEMORIA MUNDI",
+      "escrito": false,
+      "disponible": false,
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/universos-paralelos/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/24-Portada_Kaku-324x509.jpg"
+    },
     {
       "numero": 25,
       "nombre": "Hombres salmonela en el planeta porno",
@@ -279,12 +279,12 @@
       "numero": 26,
       "nombre": "La pasión de la mente occidental",
       "autor": "Richard Tarnas",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/la-pasion-de-la-mente-occidental/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/26-tarnas-Cubierta_La_pasion-324x509.jpg"
     },
     {
       "numero": 27,
@@ -334,23 +334,23 @@
       "numero": 31,
       "nombre": "Emily Brontë",
       "autor": "Winifred Gérin",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/emily-bronte/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/31-gerin-Cubierta_Emily_Bronte-324x509.jpg"
     },
     {
       "numero": 32,
       "nombre": "Los cosacos",
       "autor": "Lev Tolstói",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/los-cosacos/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/32-tolstoi-Cubierta_cosacos-324x509.jpg"
     },
     {
       "numero": 33,
@@ -433,12 +433,12 @@
       "numero": 40,
       "nombre": "Historia de mi vida. Tomo II",
       "autor": "Giacomo Casanova",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/historia-de-mi-vida-3-volumenes/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/39-Cubierta_Casanova_Tomo_1-324x509.jpg"
     },
     {
       "numero": 41,
@@ -477,12 +477,12 @@
       "numero": 44,
       "nombre": "En los oscuros lugares del saber",
       "autor": "Peter Kingsley",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/en-los-oscuros-lugares-del-saber/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/44-Portada_Kingsley-324x509.jpg"
     },
     {
       "numero": 45,
@@ -510,12 +510,12 @@
       "numero": 47,
       "nombre": "Rāmāyaṇa",
       "autor": "Vālmīki",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/ramaiana/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/47-Portada_Ramaiana-324x509.jpg"
     },
     {
       "numero": 48,
@@ -530,14 +530,14 @@
     },
     {
       "numero": 49,
-      "nombre": "Jin Ping Mei. El Erudito de las Carcajadas",
-      "autor": "",
-      "coleccion": "",
+      "titulo": "Jin Ping Mei (Tomo I)",
+      "autor": "El erudito de las carcajadas",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/jin-ping-mei-tomo-i/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/49-ping-Portada_JPM-324x509.jpg"
     },
     {
       "numero": 50,
@@ -596,14 +596,14 @@
     },
     {
       "numero": 55,
-      "nombre": "Érase una vez una mujer...",
+      "titulo": "Érase una vez una mujer que quería matar...",
       "autor": "Liudmila Petrushévskaia",
-      "coleccion": "",
+      "coleccion": "ARS BREVIS",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/erase-una-vez-una-mujer-que-queria-matar/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/55-Portada_Liudmila-324x509.jpg"
     },
     {
       "numero": 56,
@@ -629,14 +629,14 @@
     },
     {
       "numero": 58,
-      "nombre": "Aventuras en Venecia",
+      "titulo": "Giacomo Casanova en Venecia",
       "autor": "Giacomo Casanova",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/giacomo-casanova-en-venecia/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/58-Portada_Casanova_Venecia-324x509.jpg"
     },
     {
       "numero": 59,
@@ -662,14 +662,14 @@
     },
     {
       "numero": 61,
-      "nombre": "Jin Ping Mei II. El Erudito de las Carcajadas",
-      "autor": "",
-      "coleccion": "",
+      "titulo": "Jin Ping Mei II",
+      "autor": "El erudito de las carcajadas",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/giacomo-casanova-en-venecia/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/58-Portada_Casanova_Venecia-324x509.jpg"
     },
     {
       "numero": 62,
@@ -697,12 +697,12 @@
       "numero": 64,
       "nombre": "Consciencia más allá de la vida",
       "autor": "Pim van Lommel",
-      "coleccion": "",
+      "coleccion": "IAMGINATIO VERA BOLSILLO",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/consciencia-mas-alla-de-la-vida/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/64-Portada_Lommel-324x509.jpg"
     },
     {
       "numero": 65,
@@ -794,14 +794,14 @@
     },
     {
       "numero": 73,
-      "nombre": "La pérdida del reino",
+      "nombre": "Sombras suele vestir y otros relatos",
       "autor": "José Bianco",
-      "coleccion": "",
+      "coleccion": "ARS BREVIS",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/sombras-suele-vestir-y-otros-relatos/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/73-Bianco-arrastrado-324x509.jpg"
     },
     {
       "numero": 74,
@@ -961,34 +961,34 @@
       "numero": 88,
       "nombre": "Las mil y una noches I",
       "autor": "Anónimo",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+    "link": "https://www.edicionesatalanta.com/catalogo/las-mil-y-una-noches/",
+    "portada": "https://www.edicionesatalanta.com/wp-content/uploads/88-noches-Lateral_estuche_1-324x509.jpg"
     },
     {
       "numero": 89,
       "nombre": "Las mil y una noches II",
       "autor": "Anónimo",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+    "link": "https://www.edicionesatalanta.com/catalogo/las-mil-y-una-noches/",
+    "portada": "https://www.edicionesatalanta.com/wp-content/uploads/88-noches-Lateral_estuche_1-324x509.jpg"
     },
     {
       "numero": 90,
       "nombre": "Las mil y una noches III",
       "autor": "Anónimo",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+    "link": "https://www.edicionesatalanta.com/catalogo/las-mil-y-una-noches/",
+    "portada": "https://www.edicionesatalanta.com/wp-content/uploads/88-noches-Lateral_estuche_1-324x509.jpg"
     },
     {
       "numero": 91,
@@ -1311,14 +1311,14 @@
     },
     {
       "numero": 120,
-      "nombre": "Los mundos de Robert Fludd",
+      "titulo": "Macrocosmos, microcosmos y medicina: Robert Fludd",
       "autor": "Joscelyn Godwin",
-      "coleccion": "",
+      "coleccion": "IMAGINATIO VERA",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/macrocosmos-microcosmos-y-medicina-robert-fludd/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/120-godwin-Cubierta-Fludd-Alta-1000-324x509.jpg"
     },
     {
       "numero": 121,
@@ -1632,12 +1632,12 @@
       "numero": 149,
       "nombre": "El vuelco",
       "autor": "Jeffrey J. Kripal",
-      "coleccion": "",
+      "coleccion": "MEMORIA MUNDI",
       "escrito": false,
       "disponible": false,
       "emoji": "",
-      "link": "",
-      "portada": ""
+      "link": "https://www.edicionesatalanta.com/catalogo/el-vuelco/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-El-vuelco-324x495.jpg"
     },
     {
       "numero": 150,
