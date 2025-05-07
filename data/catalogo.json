@@ -138,7 +138,7 @@
       "autor": "D. H. Lawrence",
       "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-hombre-que-amaba-las-islas/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/13_-lawrence-Cubierta_El_hombre_queamabalasislas-324x509.jpg"
@@ -171,7 +171,7 @@
       "autor": "James Hillman",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/pan-y-la-pesadilla/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Pan-y-la-pesadilla-3-Web-324x503.png"
@@ -226,7 +226,7 @@
       "autor": "Michael Maier",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/la-fuga-de-atalanta/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/21-maier-Portada_Fuga_de_Atalanta_2-324x509.jpg"
@@ -468,7 +468,7 @@
       "autor": "Nicolás Gómez Dávila",
       "coleccion": "Memoria Mundi",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/textos/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/43-davila-Portada_Textos-324x509.jpg"
@@ -523,7 +523,7 @@
       "autor": "VV. AA.",
       "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/vampiros/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Cubierta-Vampiros-3-324x498.jpg"
@@ -578,7 +578,7 @@
       "autor": "Robert Aickman",
       "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/cuentos-de-lo-extrano/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/aickman-extrano-324x509.jpg"
@@ -589,7 +589,7 @@
       "autor": "Jean Gebser",
       "coleccion": "Memoria Mundi",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/origen-y-presente/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Plantilla-portada-web-Origen-y-presente-324x503.jpg"
@@ -732,7 +732,7 @@
       "autor": "Gary Lachman",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/rudolf-steiner/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-web-Rudolf-Steiner-324x503.jpg"
@@ -864,7 +864,7 @@
       "autor": "VV. AA.",
       "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/antologia-universal-del-relato-fantastico/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/79-siruela-Portada-Antologia-Fantastica-2-324x509.jpg"
@@ -930,7 +930,7 @@
       "autor": "Leonardo da Jandra",
       "coleccion": "Memoria Mundi",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/filosofia-para-desencantados/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/85-jandra-Portada-Filo-desencantados-Alta-324x509.jpg"
@@ -1084,7 +1084,7 @@
       "autor": "Edición de Juan Arnau",
       "coleccion": "Memoria Mundi",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/bhagavadgita/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Bhagavadgita-3a-324x496.jpg"
@@ -1139,7 +1139,7 @@
       "autor": "Henryk Skolimowski",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/la-mente-participativa/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/104-skolimowsky-Portada_Mente_participativa-324x509.jpg"
@@ -1238,7 +1238,7 @@
       "autor": "James Hillman",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-pensamiento-del-corazon/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/113-hillman-Cubierta_Pensamiento_Corazon_Alta-324x509.jpg"
@@ -1458,7 +1458,7 @@
       "autor": "Edición de Juan Arnau",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/upanisad-correspondencias-ocultas/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Upanishad-324x499.jpg"
@@ -1623,7 +1623,7 @@
       "autor": "Jeffrey Raff",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/jung-y-la-imaginacion-alquimica/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Jung-Alquimia-324x507.jpg"
@@ -1667,7 +1667,7 @@
       "autor": "William K. Mahony",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-universo-como-una-obra-de-arte/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Web-Mahony-324x503.jpg"
@@ -1689,7 +1689,7 @@
       "autor": "Bernardo Kastrup",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/pensar-la-ciencia/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Pensar-la-ciencia-Kastrup-324x503.jpg"
@@ -1821,7 +1821,7 @@
       "autor": "Alberto Chimal",
       "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/las-estancias-secretas/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Plantilla-portada-web-Estancias-secretas-324x503.jpg"
