@@ -137,6 +137,20 @@
         border-bottom: 1px solid var(--rojo-atalanta);
       }
 
+      .boton-link {
+        all: unset;
+        cursor: pointer;
+        text-transform: uppercase;
+        color: var(--rojo-atalanta);
+        letter-spacing: 0.1rem;
+        transition: all 0.3s ease;
+      }
+
+      .boton-link:hover {
+        color: white;
+        border-bottom: 1px solid var(--rojo-atalanta);
+      }
+
       #popup {
         display: none;
         position: fixed;
@@ -188,8 +202,8 @@
     <div id="catalogo"></div>
     <button id="guardar">Guardar cambios</button>
 
-    <div id="popup">
-      <div>
+    <div id="popup" onclick="cerrarPopup()">
+      <div onclick="event.stopPropagation()">
         <img id="popup-img" src="" />
         <button onclick="cerrarPopup()">✕</button>
       </div>
@@ -232,25 +246,38 @@
             "</select>",
             "<label>Emoji</label>",
             '<input type="text" value="' + item.emoji + '" onchange="datos[' + i + '].emoji = this.value">',
-
             "<label>Link</label>",
-            '<div style="display:flex;gap:0.5rem;align-items:center;">' +
-              '<input type="text" value="' + item.link + '" style="flex:1" onchange="datos[' + i + '].link = this.value">' +
-              '<button onclick="window.open(datos[' + i + '].link, \"_blank\")" style="all:unset;cursor:pointer;text-transform:uppercase;color:var(--rojo-atalanta);letter-spacing:0.1rem;">Ir</button>' +
-            '</div>',
-
+            '<input type="text" value="' + item.link + '" style="flex:1" onchange="datos[' + i + '].link = this.value">',
             "<label>Portada</label>",
-            '<div style="display:flex;gap:0.5rem;align-items:center;">' +
-              '<input type="text" value="' + item.portada + '" style="flex:1" onchange="datos[' + i + '].portada = this.value">' +
-              '<button onclick="mostrarPortada(' + i + ')" style="all:unset;cursor:pointer;text-transform:uppercase;color:var(--rojo-atalanta);letter-spacing:0.1rem;">Ver</button>' +
-            '</div>',
-
+            '<input type="text" value="' + item.portada + '" style="flex:1" onchange="datos[' + i + '].portada = this.value">',
             '<label><input type="checkbox" ' + (item.escrito ? "checked" : "") + ' onchange="datos[' + i + '].escrito = this.checked"> Escrito</label>',
             '<label><input type="checkbox" ' + (item.disponible ? "checked" : "") + ' onchange="datos[' + i + '].disponible = this.checked"> Disponible</label>',
           ].join("");
 
           div.innerHTML = html;
           cont.appendChild(div);
+
+          // Botones IR y VER externos
+          const botonesExternos = document.createElement("div");
+          botonesExternos.style.display = "flex";
+          botonesExternos.style.justifyContent = "flex-end";
+          botonesExternos.style.gap = "1rem";
+          botonesExternos.style.maxWidth = "700px";
+          botonesExternos.style.margin = "0 auto 2rem auto";
+
+          const botonIr = document.createElement("button");
+          botonIr.className = "boton-link";
+          botonIr.textContent = "Ir";
+          botonIr.onclick = () => window.open(item.link, "_blank");
+
+          const botonVer = document.createElement("button");
+          botonVer.className = "boton-link";
+          botonVer.textContent = "Ver";
+          botonVer.onclick = () => mostrarPortada(i);
+
+          botonesExternos.appendChild(botonIr);
+          botonesExternos.appendChild(botonVer);
+          cont.appendChild(botonesExternos);
         });
       }
 
