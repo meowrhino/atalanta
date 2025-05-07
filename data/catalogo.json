@@ -24,7 +24,7 @@
     },
     {
       "numero": 3,
-      "nombre": "La historia de Genji",
+      "titulo": "La historia de Genji",
       "autor": "Murasaki Shikibu",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
@@ -90,7 +90,7 @@
     },
     {
       "numero": 9,
-      "nombre": "Genji II: Los relatos de Uji",
+      "titulo": "Genji II: Los relatos de Uji",
       "autor": "Murasaki Shikibu",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
@@ -101,7 +101,7 @@
     },
     {
       "numero": 10,
-      "nombre": "Yijing",
+      "titulo": "Yijing",
       "autor": "Con el comentario de Wang Bi",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
@@ -530,7 +530,7 @@
     },
     {
       "numero": 49,
-      "nombre": "Jin Ping Mei (Tomo I)",
+      "titulo": "Jin Ping Mei (Tomo I)",
       "autor": "El erudito de las carcajadas",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
@@ -596,7 +596,7 @@
     },
     {
       "numero": 55,
-      "nombre": "Érase una vez una mujer que quería matar...",
+      "titulo": "Érase una vez una mujer que quería matar...",
       "autor": "Liudmila Petrushévskaia",
       "coleccion": "ARS BREVIS",
       "escrito": false,
@@ -629,7 +629,7 @@
     },
     {
       "numero": 58,
-      "nombre": "Giacomo Casanova en Venecia",
+      "titulo": "Giacomo Casanova en Venecia",
       "autor": "Giacomo Casanova",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
@@ -662,7 +662,7 @@
     },
     {
       "numero": 61,
-      "nombre": "Jin Ping Mei II",
+      "titulo": "Jin Ping Mei II",
       "autor": "El erudito de las carcajadas",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
@@ -896,9 +896,9 @@
       "nombre": "Manual de filosofía portátil",
       "autor": "Juan Arnau",
       "coleccion": "Memoria Mundi",
-      "escrito": false,
-      "disponible": false,
-      "emoji": "",
+      "escrito": true,
+      "disponible": true,
+      "emoji": "🎩",
       "link": "https://www.edicionesatalanta.com/catalogo/manual-de-filosofia-portatil/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/82-arnau-Cubierta_Filo_portati_Alta-324x509.jpg"
     },
@@ -965,8 +965,8 @@
       "escrito": false,
       "disponible": false,
       "emoji": "",
-    "link": "https://www.edicionesatalanta.com/catalogo/las-mil-y-una-noches/",
-    "portada": "https://www.edicionesatalanta.com/wp-content/uploads/88-noches-Lateral_estuche_1-324x509.jpg"
+      "link": "https://www.edicionesatalanta.com/catalogo/las-mil-y-una-noches/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/88-noches-Lateral_estuche_1-324x509.jpg"
     },
     {
       "numero": 89,
@@ -976,8 +976,8 @@
       "escrito": false,
       "disponible": false,
       "emoji": "",
-    "link": "https://www.edicionesatalanta.com/catalogo/las-mil-y-una-noches/",
-    "portada": "https://www.edicionesatalanta.com/wp-content/uploads/88-noches-Lateral_estuche_1-324x509.jpg"
+      "link": "https://www.edicionesatalanta.com/catalogo/las-mil-y-una-noches/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/88-noches-Lateral_estuche_1-324x509.jpg"
     },
     {
       "numero": 90,
@@ -987,8 +987,8 @@
       "escrito": false,
       "disponible": false,
       "emoji": "",
-    "link": "https://www.edicionesatalanta.com/catalogo/las-mil-y-una-noches/",
-    "portada": "https://www.edicionesatalanta.com/wp-content/uploads/88-noches-Lateral_estuche_1-324x509.jpg"
+      "link": "https://www.edicionesatalanta.com/catalogo/las-mil-y-una-noches/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/88-noches-Lateral_estuche_1-324x509.jpg"
     },
     {
       "numero": 91,
@@ -1006,8 +1006,8 @@
       "nombre": "Salvar las apariencias",
       "autor": "Owen Barfield",
       "coleccion": "IMAGINATIO VERA",
-      "escrito": false,
-      "disponible": false,
+      "escrito": true,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/salvar-las-apariencias/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/92-barfield-Portada-Barfield_alta-324x509.jpg"
@@ -1106,7 +1106,7 @@
       "autor": "Juan Arnau",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/la-invencion-de-la-libertad/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/101-arnau-Portada_invencion_Libertad_Alta-324x509.jpg"
@@ -1172,7 +1172,7 @@
       "autor": "Franz Kafka",
       "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/la-transformacion/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/107-Portada_Kafka-324x509.jpg"
@@ -1260,7 +1260,7 @@
       "autor": "Juan Arnau",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/la-fuga-de-dios/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/115-arnau-Portada_La_fuga_de_dios-324x509.jpg"
@@ -1311,7 +1311,7 @@
     },
     {
       "numero": 120,
-      "nombre": "Macrocosmos, microcosmos y medicina: Robert Fludd",
+      "titulo": "Macrocosmos, microcosmos y medicina: Robert Fludd",
       "autor": "Joscelyn Godwin",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
@@ -1425,7 +1425,7 @@
       "autor": "E. F. Schumacher",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/una-guia-para-los-perplejos/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Cubierta-Perplejos-324x504.jpg"
@@ -1490,9 +1490,9 @@
       "nombre": "La metamorfosis de las plantas",
       "autor": "J. W. Goethe",
       "coleccion": "LIBER NATURAE",
-      "escrito": false,
-      "disponible": false,
-      "emoji": "",
+      "escrito": true,
+      "disponible": true,
+      "emoji": "🌻",
       "link": "https://www.edicionesatalanta.com/catalogo/la-metamorfosis-de-las-plantas/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Metamorfosis-plantas-324x503.jpg"
     },
@@ -1557,7 +1557,7 @@
       "autor": "Jeremy Naydler",
       "coleccion": "LIBER NATURAE",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/la-lucha-por-el-futuro-humano/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Lucha-futuro-humano-324x503.jpg"
@@ -1567,8 +1567,8 @@
       "nombre": "¿Por qué el materialismo es un embuste?",
       "autor": "Bernardo Kastrup",
       "coleccion": "MEMORIA MUNDI",
-      "escrito": false,
-      "disponible": false,
+      "escrito": true,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/por-que-el-materialismo-es-un-embuste/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Materialismo-Embuste-324x503.jpg"
@@ -1644,8 +1644,8 @@
       "nombre": "El campo vibratorio",
       "autor": "Changlin Zhang",
       "coleccion": "LIBER NATURAE",
-      "escrito": false,
-      "disponible": false,
+      "escrito": true,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-campo-vibratorio/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-campo-vibratorio-Webb-324x503.jpg"
