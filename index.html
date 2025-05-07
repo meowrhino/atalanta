@@ -239,7 +239,7 @@
           const res = await fetch("data/catalogo.json");
           const json = await res.json();
           window.catalogo = json.catalogo;
-
+    
           document
             .getElementById("selectorOrdenar")
             .addEventListener("change", () => {
@@ -250,28 +250,13 @@
             .addEventListener("change", () => {
               renderAgrupado();
             });
-
+    
           renderAgrupado();
         } catch (err) {
           console.error("Error cargando catálogo:", err);
         }
       }
-
-      function iniciarFiltros(libros) {
-        const cont = document.querySelector("section");
-        const filtros = document.createElement("div");
-        filtros.className = "filtros";
-
-        const selector = document.createElement("select");
-        selector.innerHTML = `<option value="coleccion">Agrupar por colección</option><option value="autor">Agrupar por autor</option>`;
-        selector.addEventListener("change", () =>
-          renderAgrupado(selector.value)
-        );
-
-        filtros.appendChild(selector);
-        cont.prepend(filtros);
-      }
-
+    
       function agruparPor(lista, campo) {
         return lista.reduce((acc, l) => {
           const key = l[campo] || "Sin especificar";
@@ -280,107 +265,102 @@
           return acc;
         }, {});
       }
-
+    
       function limpiarContenedores() {
         document.getElementById("libros").innerHTML = "";
         document.getElementById("faltantes").innerHTML = "";
       }
-
+    
       function renderAgrupado() {
         limpiarContenedores();
-
+    
         const criterioOrden = document.getElementById("selectorOrdenar").value;
-        const criterioAgrupar =
-          document.getElementById("selectorAgrupar").value;
-
+        const criterioAgrupar = document.getElementById("selectorAgrupar").value;
+    
         const disponibles = [...window.catalogo.filter((l) => l.disponible)];
         const noDisponibles = [...window.catalogo.filter((l) => !l.disponible)];
-
+    
         disponibles.sort((a, b) => {
           if (criterioOrden === "numero") return a.numero - b.numero;
           return a.autor.localeCompare(b.autor);
         });
-
+    
         noDisponibles.sort((a, b) => {
           if (criterioOrden === "numero") return a.numero - b.numero;
           return a.autor.localeCompare(b.autor);
         });
-
+    
+        // Mostrar resumen ARRIBA del contenedor de no disponibles
+        const total = window.catalogo.length;
+        const faltan = noDisponibles.length;
+        const contFaltantes = document.getElementById("faltantes");
+        const resumen = document.createElement("div");
+        resumen.style.marginBottom = "1rem";
+        resumen.style.fontSize = "0.9rem";
+        resumen.style.textAlign = "right";
+        resumen.style.color = "white";
+        resumen.innerText = `${faltan} / ${total} libros no disponibles`;
+        contFaltantes.appendChild(resumen);
+    
         if (criterioAgrupar === "ninguno") {
           renderGrupo({ "": disponibles }, "libros", true);
           renderGrupo({ "": noDisponibles }, "faltantes", false);
         } else {
           const disponiblesAgrupados = agruparPor(disponibles, criterioAgrupar);
-          const noDisponiblesAgrupados = agruparPor(
-            noDisponibles,
-            criterioAgrupar
-          );
-
+          const noDisponiblesAgrupados = agruparPor(noDisponibles, criterioAgrupar);
+    
           renderGrupo(disponiblesAgrupados, "libros", true);
           renderGrupo(noDisponiblesAgrupados, "faltantes", false);
         }
       }
-
+    
       function renderGrupo(grupos, contId, disponibles) {
         const cont = document.getElementById(contId);
         const claves = Object.keys(grupos).sort((a, b) => a.localeCompare(b));
-
+    
         for (const grupo of claves) {
           const grupoDiv = document.createElement("div");
           grupoDiv.className = "grupo";
           if (grupo) grupoDiv.innerHTML = `<h3>${grupo}</h3>`;
-
+    
           const librosHTML = disponibles
             ? `<div class="libros">${grupos[grupo]
                 .map(renderLibroDisponible)
                 .join("")}</div>`
             : grupos[grupo].map(renderLibroNoDisponible).join("");
-
+    
           grupoDiv.innerHTML += librosHTML;
-          const total = window.catalogo.length;
-          const faltan = noDisponibles.length;
-          const contFaltantes = document.getElementById("faltantes");
-          const resumen = document.createElement("div");
-          resumen.style.marginTop = "1rem";
-          resumen.style.fontSize = "0.9rem";
-          resumen.style.textAlign = "right";
-          resumen.innerText = `${faltan} / ${total} libros no disponibles`;
-          contFaltantes.appendChild(resumen);
           cont.appendChild(grupoDiv);
         }
       }
-
+    
       function renderLibroDisponible(libro) {
         return `
-    <div class="libro${libro.escrito ? " escrito" : ""}">
-      <div class="numero">${libro.numero}</div>
-      <a href="${libro.link}" target="_blank">
-        <img src="${libro.portada}" alt="Portada del libro '${
-          libro.nombre
-        }' de ${libro.autor}">
-        <h3>${libro.nombre}</h3>
-        <p>${libro.autor}</p>
-      </a>
-    </div>`;
+          <div class="libro${libro.escrito ? " escrito" : ""}">
+            <div class="numero">${libro.numero}</div>
+            <a href="${libro.link}" target="_blank">
+              <img src="${libro.portada}" alt="Portada del libro '${libro.nombre}' de ${libro.autor}">
+              <h3>${libro.nombre}</h3>
+              <p>${libro.autor}</p>
+            </a>
+          </div>`;
       }
-
+    
       function renderLibroNoDisponible(libro) {
         return `
-    <div class="faltante">
-      <div class="info">
-        <a href="${libro.link}" target="_blank"><strong>${
-          libro.numero
-        }.</strong> ${libro.nombre}</a><br/>
-        <span class="autor">${libro.autor}</span>
-      </div>
-      ${
-        libro.prestado
-          ? `<span class="prestado">Prestado a ${libro.prestado}</span>`
-          : ""
+          <div class="faltante">
+            <div class="info">
+              <a href="${libro.link}" target="_blank"><strong>${libro.numero}.</strong> ${libro.nombre}</a><br/>
+              <span class="autor">${libro.autor}</span>
+            </div>
+            ${
+              libro.prestado
+                ? `<span class="prestado">Prestado a ${libro.prestado}</span>`
+                : ""
+            }
+          </div>`;
       }
-    </div>`;
-      }
-
+    
       cargarCatalogo();
     </script>
   </body>
