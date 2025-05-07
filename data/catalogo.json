@@ -38,8 +38,8 @@
       "nombre": "El fuego secreto de los filósofos",
       "autor": "Patrick Harpur",
       "coleccion": "IMAGINATIO VERA",
-      "escrito": false,
-      "disponible": false,
+      "escrito": true,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-fuego-secreto-de-los-filosofos/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/45-Portada_Harpur_Fuego_secreto-324x509.jpg"
@@ -83,7 +83,7 @@
       "autor": "Peter Kingsley",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/en-los-oscuros-lugares-del-saber/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/44-Portada_Kingsley-324x509.jpg"
@@ -105,7 +105,7 @@
       "autor": "Con el comentario de Wang Bi",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/yijing/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/10-Cubierta_Yijing-324x509.jpg"
@@ -204,7 +204,7 @@
       "autor": "Oscar Wilde",
       "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-arte-de-conversar/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Wilde-para-NL-324x518.jpg"
@@ -259,7 +259,7 @@
       "autor": "Michio Kaku",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/universos-paralelos/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/24-Portada_Kaku-324x509.jpg"
@@ -391,7 +391,7 @@
       "autor": "Yasutaka Tsutsui",
       "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/estoy-desnudo/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/36-Portada_Tsutsui_1000-324x509.jpg"
@@ -545,7 +545,7 @@
       "autor": "Jacobo Siruela",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-mundo-bajo-los-parpados/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/50-siruela-Cubierta-parpados-3-edicion-324x509.jpg"
@@ -610,8 +610,8 @@
       "nombre": "Paprika",
       "autor": "Yasutaka Tsutsui",
       "coleccion": "ARS BREVIS",
-      "escrito": false,
-      "disponible": false,
+      "escrito": true,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/paprika/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/56-tsutsui-Portada-Paprika-324x509.jpg"
@@ -776,7 +776,7 @@
       "autor": "George MacDonald",
       "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/cuentos-de-hadas/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/71-Portada_Hadas_Alta-324x509.jpg"
@@ -1051,7 +1051,7 @@
       "autor": "Jacobo Siruela",
       "coleccion": "Memoria Mundi",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/libros-secretos/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/96-siruela-Portada-Libros-Secretos-324x509.jpg"
@@ -1194,7 +1194,7 @@
       "autor": "Junichiro Tanizaki",
       "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/siete-cuentos-japoneses/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/109-Portada_Tanizaki_Alta-324x509.jpg"
@@ -1227,7 +1227,7 @@
       "autor": "W. Somerset Maugham",
       "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-impulso-creativo/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/112-somerset-Portada-Impulso-creativo-324x509.jpg"
@@ -1282,7 +1282,7 @@
       "autor": "Yasutaka Tsutsui",
       "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/lo-que-vio-la-criada-ocho-cuentos-psiquicos/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/117-tsutsui-Portada_Loqueviolacriada-324x509.jpg"
@@ -1447,7 +1447,7 @@
       "autor": "André Breton",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-arte-magico/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Web-arte-magico-324x509.jpg"
@@ -1469,7 +1469,7 @@
       "autor": "Juan Rodolfo Wilcock",
       "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-libro-de-los-monstruos/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Cubierta-Libro-de-los-monstruos-324x514.jpg"
@@ -1502,7 +1502,7 @@
       "autor": "Henri Bortoft",
       "coleccion": "LIBER NATURAE",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/la-naturaleza-como-totalidad/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Bortoft-324x503.jpg"
@@ -1535,7 +1535,7 @@
       "autor": "Alfred North Whitehead",
       "coleccion": "LIBER NATURAE",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/proceso-y-realidad/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Proceso-y-Realidad-324x503.jpg"
@@ -1656,7 +1656,7 @@
       "autor": "Christian de Quincey",
       "coleccion": "LIBER NATURAE",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/naturaleza-esencial/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/151-NATURALEZA-ESENCIAL-324x507.jpg"
@@ -1700,7 +1700,7 @@
       "autor": "Algis Uždavinys",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/filosofia-rito-renacimiento/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Filosofia-como-rito-de-Renacimiento-324x503.png"
@@ -1711,7 +1711,7 @@
       "autor": "David Fideler",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/restaurar-el-alma-del-mundo/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Restaurar-alma-del-mundo-324x503.jpg"
