@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Atalanta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --rojo: #c0392b;
+        --azul: #00132b;
+        --fondo: #0c0f1a;
+      }
+
+      body {
+        margin: 0;
+        padding: 2rem;
+        font-family: 'Noto Serif JP', serif;
+        background: var(--fondo);
+        color: var(--rojo);
+      }
+
+      h1 {
+        text-align: center;
+        font-weight: 300;
+        color: var(--rojo);
+      }
+
+      section {
+        margin-bottom: 3rem;
+      }
+
+      .libros {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+      }
+
+      .libro {
+        background: var(--azul);
+        padding: 1rem;
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .libro img {
+        width: 100%;
+        max-width: 150px;
+        margin-bottom: 0.5rem;
+      }
+
+      .libro h3 {
+        font-size: 1rem;
+        margin: 0.5rem 0 0.2rem;
+        color: white;
+      }
+
+      .libro p {
+        font-size: 0.8rem;
+        margin: 0;
+        color: var(--rojo);
+      }
+
+      .libro.escrito h3::after {
+        content: ' ✎';
+        color: var(--rojo);
+      }
+
+      .faltantes {
+        font-size: 0.9rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+        background: var(--azul);
+        padding: 1rem;
+        border-radius: 2px;
+      }
+
+      .faltante {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+      }
+
+      .prestado {
+        font-style: italic;
+        color: var(--rojo);
+        margin-left: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Biblioteca Atalanta</h1>
+
+    <section>
+      <h2>Libros en stock</h2>
+      <div class="libros" id="libros"></div>
+    </section>
+
+    <section>
+      <h2>No disponibles en stock</h2>
+      <div class="faltantes" id="faltantes"></div>
+    </section>
+
+    <script>
+      async function cargarCatalogo() {
+        try {
+          const res = await fetch("../data/catalogo.json");
+          const json = await res.json();
+          const disponibles = json.catalogo.filter(l => l.disponible);
+          const noDisponibles = json.catalogo.filter(l => !l.disponible);
+
+          renderDisponibles(disponibles);
+          renderFaltantes(noDisponibles);
+        } catch (err) {
+          console.error("Error cargando catálogo:", err);
+        }
+      }
+
+      function renderDisponibles(libros) {
+        const cont = document.getElementById("libros");
+        libros.forEach(libro => {
+          const div = document.createElement("div");
+          div.className = "libro" + (libro.escrito ? " escrito" : "");
+          div.innerHTML = `
+            <img src="${libro.portada}" alt="Portada de ${libro.nombre}">
+            <h3>${libro.nombre}</h3>
+            <p>${libro.autor}</p>
+          `;
+          cont.appendChild(div);
+        });
+      }
+
+      function renderFaltantes(libros) {
+        const cont = document.getElementById("faltantes");
+        libros.sort((a, b) => a.numero - b.numero);
+        libros.forEach(libro => {
+          const div = document.createElement("div");
+          div.className = "faltante";
+          div.innerHTML = `
+            <span>${libro.numero}. ${libro.nombre} — ${libro.autor}</span>
+            ${libro.prestado ? `<span class="prestado">Prestado a ${libro.prestado}</span>` : ""}
+          `;
+          cont.appendChild(div);
+        });
+      }
+
+      cargarCatalogo();
+    </script>
+  </body>
+</html>
