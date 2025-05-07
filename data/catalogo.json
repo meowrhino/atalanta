@@ -380,7 +380,7 @@
       "autor": "Karl Kerényi",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/los-heroes-griegos/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Cubierta-Heroes-Web-324x503.jpg"
@@ -402,7 +402,7 @@
       "autor": "Joscelyn Godwin",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-mito-polar/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/37-godwin-Portada_Polar-324x509.jpg"
@@ -501,7 +501,7 @@
       "autor": "Eliot Weinberger",
       "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/algo-elemental/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/46-Portada_Weinberger-324x509.jpg"
@@ -556,7 +556,7 @@
       "autor": "Salvador Elizondo",
       "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-mar-de-iguanas/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/51-Portada_Elizondo-324x509.jpg"
@@ -567,7 +567,7 @@
       "autor": "Giacomo Casanova",
       "coleccion": "Memoria Mundi",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/mis-aventuras-con-monjas/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/casanova-monjas-324x509.jpg"
@@ -699,7 +699,7 @@
       "autor": "Pim van Lommel",
       "coleccion": "IAMGINATIO VERA BOLSILLO",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/consciencia-mas-alla-de-la-vida/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/64-Portada_Lommel-324x509.jpg"
@@ -787,7 +787,7 @@
       "autor": "VV. AA.",
       "coleccion": "Memoria Mundi",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-palacio-de-liria/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/72-Cubierta_Liria-324x420.jpg"
@@ -798,7 +798,7 @@
       "autor": "José Bianco",
       "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/sombras-suele-vestir-y-otros-relatos/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/73-Bianco-arrastrado-324x509.jpg"
@@ -831,7 +831,7 @@
       "autor": "Kathleen Raine",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/ocho-ensayos-sobre-william-blake/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/76-raine-PORTADA_ALTA_GOLGONOOZA-324x509.jpg"
@@ -941,7 +941,7 @@
       "autor": "Octavio Paz",
       "coleccion": "Memoria Mundi",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/itinerario-poetico/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/86-Cubierta_Paz_Alta-324x509.jpg"
@@ -1073,7 +1073,7 @@
       "autor": "Vicente Lledó / Luis Asín",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-palacio-de-las-duenas/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/98-lleo-Portada_Duenas_Alta-324x509.jpg"
@@ -1128,7 +1128,7 @@
       "autor": "Robert Aickman",
       "coleccion": "ARS BREVIS",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/las-casas-de-los-rusos/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/103-aickman-Portada-Casas-rusos-alta-324x509.jpg"
@@ -1315,7 +1315,7 @@
       "autor": "Joscelyn Godwin",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/macrocosmos-microcosmos-y-medicina-robert-fludd/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/120-godwin-Cubierta-Fludd-Alta-1000-324x509.jpg"
@@ -1359,7 +1359,7 @@
       "autor": "Sonu Shamdasani",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/jung-y-la-creacion-de-la-psicologia-moderna/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/122-jung-9788494905407portadalibroJung-324x509.jpg"
@@ -1601,7 +1601,7 @@
       "autor": "Stephan Harding",
       "coleccion": "LIBER NATURAE",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/tierra-viviente/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Tierra-Viviente2-324x520.jpg"
@@ -1678,7 +1678,7 @@
       "autor": "José Joaquín Parra Bañón",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/noe-en-imagenes/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Noe-en-imagenes-324x503.jpg"
@@ -1744,7 +1744,7 @@
       "autor": "Edición de Juan Arnau",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-dialogo-del-diamante/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Dialogo-diamante-324x503.png"
@@ -1755,7 +1755,7 @@
       "autor": "VV. AA.",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/de-planilandia-a-la-cuarta-dimension/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Planilandia-324x503.jpg"
@@ -1777,7 +1777,7 @@
       "autor": "Claude Bragdon",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/la-fuente-helada/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-web-Fuente-helada-324x503.jpg"
@@ -1810,7 +1810,7 @@
       "autor": "Jacob Böhme",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/mysterium-magnum/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Plantilla-portada-web-Mysterium-324x503.jpg"
