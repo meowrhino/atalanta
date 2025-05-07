@@ -47,12 +47,9 @@
         background: var(--azul);
         color: var(--rojo);
         border: none;
-        border-bottom: 1px solid var(--rojo);
         padding: 0.3rem 0.6rem;
         font-family: inherit;
         font-size: 0.9rem;
-        appearance: none;
-        -webkit-appearance: none;
         border-radius: 0;
         cursor: pointer;
         transition: all 0.2s ease;
@@ -151,34 +148,45 @@
         font-size: 0.9rem;
         display: flex;
         flex-direction: column;
-        gap: 0.3rem;
-        background: var(--azul);
-        padding: 1rem;
+        gap: 1rem;
+        background: none;
+        padding: 0 1rem;
         border-radius: 2px;
       }
 
-      .faltante a {
+      .faltante {
+        padding: 0.8rem 1rem;
+        background: var(--azul);
+        border-left: 2px solid var(--rojo);
+        border-radius: 2px;
+      }
+
+      .faltante .info a {
         color: white;
         text-decoration: none;
-        display: inline-block;
+        font-size: 0.95rem;
         transition: all 0.3s ease;
       }
 
-      .faltante a:hover {
+      .faltante .info a:hover {
         color: var(--rojo);
         text-decoration: underline;
       }
 
       .faltante .autor {
+        display: block;
+        margin-top: 0.2rem;
+        font-size: 0.85rem;
         color: var(--rojo);
         font-weight: 400;
-        font-size: 0.85rem;
       }
 
       .prestado {
         font-style: italic;
         color: var(--rojo);
         font-size: 0.85rem;
+        margin-top: 0.3rem;
+        display: block;
       }
 
       .grupo {
@@ -191,8 +199,8 @@
       .libros .grupo h3 {
         color: white;
         font-weight: 200;
-        text-align: left;
-        font-size: 1.1rem;
+        text-align: right;
+        font-size: 1.5rem;
         margin: 0.5rem 0 1rem;
       }
     </style>
@@ -220,7 +228,6 @@
         </label>
       </div>
 
-      <h2>Libros en stock</h2>
       <div class="libros" id="libros"></div>
     </section>
 
@@ -365,8 +372,10 @@
       function renderLibroNoDisponible(libro) {
         return `
     <div class="faltante">
-      <div>
-        <a href="${libro.link}" target="_blank">${libro.nombre}</a><br/>
+      <div class="info">
+        <a href="${libro.link}" target="_blank"><strong>${
+          libro.numero
+        }.</strong> ${libro.nombre}</a><br/>
         <span class="autor">${libro.autor}</span>
       </div>
       ${
