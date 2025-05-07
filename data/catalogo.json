@@ -24,7 +24,7 @@
     },
     {
       "numero": 3,
-      "titulo": "La historia de Genji",
+      "nombre": "La historia de Genji",
       "autor": "Murasaki Shikibu",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
@@ -90,7 +90,7 @@
     },
     {
       "numero": 9,
-      "titulo": "Genji II: Los relatos de Uji",
+      "nombre": "Genji II: Los relatos de Uji",
       "autor": "Murasaki Shikibu",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
@@ -101,7 +101,7 @@
     },
     {
       "numero": 10,
-      "titulo": "Yijing",
+      "nombre": "Yijing",
       "autor": "Con el comentario de Wang Bi",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
@@ -530,7 +530,7 @@
     },
     {
       "numero": 49,
-      "titulo": "Jin Ping Mei (Tomo I)",
+      "nombre": "Jin Ping Mei (Tomo I)",
       "autor": "El erudito de las carcajadas",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
@@ -596,7 +596,7 @@
     },
     {
       "numero": 55,
-      "titulo": "Érase una vez una mujer que quería matar...",
+      "nombre": "Érase una vez una mujer que quería matar...",
       "autor": "Liudmila Petrushévskaia",
       "coleccion": "ARS BREVIS",
       "escrito": false,
@@ -629,7 +629,7 @@
     },
     {
       "numero": 58,
-      "titulo": "Giacomo Casanova en Venecia",
+      "nombre": "Giacomo Casanova en Venecia",
       "autor": "Giacomo Casanova",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
@@ -662,7 +662,7 @@
     },
     {
       "numero": 61,
-      "titulo": "Jin Ping Mei II",
+      "nombre": "Jin Ping Mei II",
       "autor": "El erudito de las carcajadas",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
@@ -1311,7 +1311,7 @@
     },
     {
       "numero": 120,
-      "titulo": "Macrocosmos, microcosmos y medicina: Robert Fludd",
+      "nombre": "Macrocosmos, microcosmos y medicina: Robert Fludd",
       "autor": "Joscelyn Godwin",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
