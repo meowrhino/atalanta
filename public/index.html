@@ -137,6 +137,36 @@
         border-bottom: 1px solid var(--rojo-atalanta);
       }
 
+      #popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #popup img {
+        max-width: 100%;
+        max-height: 100%;
+        border: 3px solid var(--rojo-atalanta);
+      }
+
+      #popup button {
+        position: absolute;
+        top: -2rem;
+        right: 0;
+        color: white;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+      }
+
       @media (max-width: 600px) {
         body {
           padding: 1rem;
@@ -157,6 +187,13 @@
     <h1>atalanta stock manager</h1>
     <div id="catalogo"></div>
     <button id="guardar">Guardar cambios</button>
+
+    <div id="popup">
+      <div>
+        <img id="popup-img" src="" />
+        <button onclick="cerrarPopup()">✕</button>
+      </div>
+    </div>
 
     <script>
       let datos = [];
@@ -182,54 +219,51 @@
           const html = [
             '<div class="item-number">' + (i + 1) + "</div>",
             "<label>Nombre</label>",
-            '<input type="text" value="' +
-              item.nombre +
-              '" onchange="datos[' +
-              i +
-              '].nombre = this.value">',
+            '<input type="text" value="' + item.nombre + '" onchange="datos[' + i + '].nombre = this.value">',
             "<label>Autor</label>",
-            '<input type="text" value="' +
-              item.autor +
-              '" onchange="datos[' +
-              i +
-              '].autor = this.value">',
+            '<input type="text" value="' + item.autor + '" onchange="datos[' + i + '].autor = this.value">',
             "<label>Colección</label>",
             '<select onchange="datos[' + i + '].coleccion = this.value">',
             '<option value="">Fuera de colección</option>',
-            '<option value="LIBER NATURAE"' +
-              (item.coleccion === "LIBER NATURAE" ? " selected" : "") +
-              ">LIBER NATURAE</option>",
-            '<option value="MEMORIA MUNDI"' +
-              (item.coleccion === "MEMORIA MUNDI" ? " selected" : "") +
-              ">MEMORIA MUNDI</option>",
-            '<option value="IMAGINATIO VERA"' +
-              (item.coleccion === "IMAGINATIO VERA" ? " selected" : "") +
-              ">IMAGINATIO VERA</option>",
-            '<option value="ARS BREVIS"' +
-              (item.coleccion === "ARS BREVIS" ? " selected" : "") +
-              ">ARS BREVIS</option>",
+            '<option value="LIBER NATURAE"' + (item.coleccion === "LIBER NATURAE" ? " selected" : "") + '>LIBER NATURAE</option>',
+            '<option value="MEMORIA MUNDI"' + (item.coleccion === "MEMORIA MUNDI" ? " selected" : "") + '>MEMORIA MUNDI</option>',
+            '<option value="IMAGINATIO VERA"' + (item.coleccion === "IMAGINATIO VERA" ? " selected" : "") + '>IMAGINATIO VERA</option>',
+            '<option value="ARS BREVIS"' + (item.coleccion === "ARS BREVIS" ? " selected" : "") + '>ARS BREVIS</option>',
             "</select>",
             "<label>Emoji</label>",
-            '<input type="text" value="' +
-              item.emoji +
-              '" onchange="datos[' +
-              i +
-              '].emoji = this.value">',
-            '<label><input type="checkbox" ' +
-              (item.escrito ? "checked" : "") +
-              ' onchange="datos[' +
-              i +
-              '].escrito = this.checked"> Escrito</label>',
-            '<label><input type="checkbox" ' +
-              (item.disponible ? "checked" : "") +
-              ' onchange="datos[' +
-              i +
-              '].disponible = this.checked"> Disponible</label>',
+            '<input type="text" value="' + item.emoji + '" onchange="datos[' + i + '].emoji = this.value">',
+
+            "<label>Link</label>",
+            '<div style="display:flex;gap:0.5rem;align-items:center;">' +
+              '<input type="text" value="' + item.link + '" style="flex:1" onchange="datos[' + i + '].link = this.value">' +
+              '<button onclick="window.open(datos[' + i + '].link, \"_blank\")" style="all:unset;cursor:pointer;text-transform:uppercase;color:var(--rojo-atalanta);letter-spacing:0.1rem;">Ir</button>' +
+            '</div>',
+
+            "<label>Portada</label>",
+            '<div style="display:flex;gap:0.5rem;align-items:center;">' +
+              '<input type="text" value="' + item.portada + '" style="flex:1" onchange="datos[' + i + '].portada = this.value">' +
+              '<button onclick="mostrarPortada(' + i + ')" style="all:unset;cursor:pointer;text-transform:uppercase;color:var(--rojo-atalanta);letter-spacing:0.1rem;">Ver</button>' +
+            '</div>',
+
+            '<label><input type="checkbox" ' + (item.escrito ? "checked" : "") + ' onchange="datos[' + i + '].escrito = this.checked"> Escrito</label>',
+            '<label><input type="checkbox" ' + (item.disponible ? "checked" : "") + ' onchange="datos[' + i + '].disponible = this.checked"> Disponible</label>',
           ].join("");
 
           div.innerHTML = html;
           cont.appendChild(div);
         });
+      }
+
+      function mostrarPortada(i) {
+        const src = datos[i].portada;
+        const popup = document.getElementById("popup");
+        const img = document.getElementById("popup-img");
+        img.src = src;
+        popup.style.display = "flex";
+      }
+
+      function cerrarPopup() {
+        document.getElementById("popup").style.display = "none";
       }
 
       document.getElementById("guardar").addEventListener("click", async () => {
