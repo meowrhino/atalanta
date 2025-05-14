@@ -644,7 +644,7 @@
       "autor": "David Hernández de la Fuente",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/vidas-de-pitagoras/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Pitagoras-3-324x492.jpg"
@@ -1370,7 +1370,7 @@
       "autor": "Jeremy Naydler",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-templo-del-cosmos/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/125-naydler-cubierta-EL-TEMPLO-DEL-COSMOS-324x509.jpg"
@@ -1546,7 +1546,7 @@
       "autor": "Karl Kerényi",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/los-dioses-de-los-griegos/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Los-dioses-de-los-griegos-324x503.jpg"
@@ -1722,7 +1722,7 @@
       "autor": "R. A. Schwaller de Lubicz",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-milagro-egipcio/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Milagro-egipcio-324x503.jpg"
