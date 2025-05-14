@@ -196,11 +196,74 @@
         transform: translateY(0);
       }
 
-      .libros .grupo h3 {
-        color: white;
-        font-weight: 200;
+      .tamano-grande .libro {
+        width: 180px;
+      }
+
+      .tamano-mediano .libro {
+        width: 140px;
+      }
+
+      .tamano-pequeno .libro {
+        width: 110px;
+      }
+
+      .tamano-grande .libro h3 {
         font-size: 1rem;
-        margin: 0.5rem 0 1rem;
+      }
+
+      .tamano-mediano .libro h3 {
+        font-size: 0.9rem;
+      }
+
+      .tamano-pequeno .libro h3 {
+        font-size: 0.8rem;
+      }
+
+      .tamano-grande .libro p {
+        font-size: 0.8rem;
+      }
+
+      .tamano-mediano .libro p {
+        font-size: 0.7rem;
+      }
+
+      .tamano-pequeno .libro p {
+        font-size: 0.6rem;
+      }
+
+      .resumen {
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+        text-align: right;
+        color: white;
+      }
+
+      .boton-faltantes {
+        margin-top: 1rem;
+        background: none;
+        border: 1px solid var(--rojo);
+        color: var(--rojo);
+        padding: 0.4rem 0.8rem;
+        cursor: pointer;
+        font-family: inherit;
+        font-size: 0.8rem;
+      }
+
+      .libro {
+        transition: width 0.3s ease;
+      }
+
+      .libro h3,
+      .libro p {
+        transition: font-size 0.3s ease;
+      }
+
+      .campo-filtro {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0.5rem;
       }
     </style>
   </head>
@@ -209,21 +272,35 @@
 
     <section>
       <div class="filtros">
-          Ordenar por:
-          <select id="selectorOrdenar">
+        <div class="campo-filtro">
+          <label for="selectorOrdenar">Ordenar por:</label>
+          <select id="selectorOrdenar" name="ordenar">
             <option value="numero">Número</option>
             <option value="autor">Autor</option>
           </select>
-        </label>
+        </div>
 
-        <label>
-          Agrupar por:
-          <select id="selectorAgrupar">
+        <div class="campo-filtro">
+          <label for="selectorAgrupar">Agrupar por:</label>
+          <select id="selectorAgrupar" name="agrupar">
             <option value="ninguno">Ninguno</option>
             <option value="coleccion">Colección</option>
             <option value="autor">Autor</option>
           </select>
-        </label>
+        </div>
+
+        <div class="campo-filtro">
+          <label for="selectorTamano">Tamaño:</label>
+          <select id="selectorTamano" name="tamano">
+            <option value="grande">Grande</option>
+            <option value="mediano">Mediano</option>
+            <option value="pequeño">Pequeño</option>
+          </select>
+        </div>
+
+        <button id="irAFaltantes" class="boton-faltantes">
+          Ver libros no disponibles ↓
+        </button>
       </div>
 
       <div class="libros" id="libros"></div>
@@ -239,7 +316,7 @@
           const res = await fetch("data/catalogo.json");
           const json = await res.json();
           window.catalogo = json.catalogo;
-    
+
           document
             .getElementById("selectorOrdenar")
             .addEventListener("change", () => {
@@ -250,13 +327,13 @@
             .addEventListener("change", () => {
               renderAgrupado();
             });
-    
+
           renderAgrupado();
         } catch (err) {
           console.error("Error cargando catálogo:", err);
         }
       }
-    
+
       function agruparPor(lista, campo) {
         return lista.reduce((acc, l) => {
           const key = l[campo] || "Sin especificar";
@@ -265,103 +342,144 @@
           return acc;
         }, {});
       }
-    
+
       function limpiarContenedores() {
         document.getElementById("libros").innerHTML = "";
         document.getElementById("faltantes").innerHTML = "";
       }
-    
+
       function renderAgrupado() {
         limpiarContenedores();
-    
+
         const criterioOrden = document.getElementById("selectorOrdenar").value;
-        const criterioAgrupar = document.getElementById("selectorAgrupar").value;
-    
+        const criterioAgrupar =
+          document.getElementById("selectorAgrupar").value;
+
         const disponibles = [...window.catalogo.filter((l) => l.disponible)];
         const noDisponibles = [...window.catalogo.filter((l) => !l.disponible)];
-    
+
         disponibles.sort((a, b) => {
           if (criterioOrden === "numero") return a.numero - b.numero;
           return a.autor.localeCompare(b.autor);
         });
-    
+
         noDisponibles.sort((a, b) => {
           if (criterioOrden === "numero") return a.numero - b.numero;
           return a.autor.localeCompare(b.autor);
         });
-    
+
         // Mostrar resumen ARRIBA del contenedor de no disponibles
         const total = window.catalogo.length;
         const faltan = noDisponibles.length;
         const contFaltantes = document.getElementById("faltantes");
         const resumen = document.createElement("div");
-        resumen.style.marginBottom = "1rem";
-        resumen.style.fontSize = "0.9rem";
-        resumen.style.textAlign = "right";
-        resumen.style.color = "white";
-        resumen.innerText = `${faltan} / ${total} libros no disponibles`;
+        resumen.className = "resumen";
+
+        const tengo = disponibles.length;
+        resumen.innerText = `${tengo} / ${total} libros disponibles`;
+
+        /*resumen.innerText = `${faltan} / ${total} libros no disponibles`;*/
         contFaltantes.appendChild(resumen);
-    
+
         if (criterioAgrupar === "ninguno") {
           renderGrupo({ "": disponibles }, "libros", true);
           renderGrupo({ "": noDisponibles }, "faltantes", false);
         } else {
           const disponiblesAgrupados = agruparPor(disponibles, criterioAgrupar);
-          const noDisponiblesAgrupados = agruparPor(noDisponibles, criterioAgrupar);
-    
+          const noDisponiblesAgrupados = agruparPor(
+            noDisponibles,
+            criterioAgrupar
+          );
+
           renderGrupo(disponiblesAgrupados, "libros", true);
           renderGrupo(noDisponiblesAgrupados, "faltantes", false);
         }
       }
-    
+
       function renderGrupo(grupos, contId, disponibles) {
         const cont = document.getElementById(contId);
         const claves = Object.keys(grupos).sort((a, b) => a.localeCompare(b));
-    
+
         for (const grupo of claves) {
           const grupoDiv = document.createElement("div");
           grupoDiv.className = "grupo";
           if (grupo) grupoDiv.innerHTML = `<h3>${grupo}</h3>`;
-    
+
           const librosHTML = disponibles
             ? `<div class="libros">${grupos[grupo]
                 .map(renderLibroDisponible)
                 .join("")}</div>`
             : grupos[grupo].map(renderLibroNoDisponible).join("");
-    
+
           grupoDiv.innerHTML += librosHTML;
           cont.appendChild(grupoDiv);
         }
       }
-    
+
       function renderLibroDisponible(libro) {
+        const link = libro.link || "#";
+        const portada = libro.portada || "img/default.jpg";
+        const alt = `Portada del libro '${libro.nombre}' de ${libro.autor}`;
+
         return `
-          <div class="libro${libro.escrito ? " escrito" : ""}">
-            <div class="numero">${libro.numero}</div>
-            <a href="${libro.link}" target="_blank">
-              <img src="${libro.portada}" alt="Portada del libro '${libro.nombre}' de ${libro.autor}">
-              <h3>${libro.nombre}</h3>
-              <p>${libro.autor}</p>
-            </a>
-          </div>`;
+    <div class="libro${libro.escrito ? " escrito" : ""}">
+      <div class="numero">${libro.numero}</div>
+      <a href="${link}" target="_blank">
+        <img src="${portada}" alt="${alt}">
+        <h3>${libro.nombre}</h3>
+        <p>${libro.autor}</p>
+      </a>
+    </div>`;
       }
-    
+
       function renderLibroNoDisponible(libro) {
+        const link = libro.link || "#";
         return `
-          <div class="faltante">
-            <div class="info">
-              <a href="${libro.link}" target="_blank"><strong>${libro.numero}.</strong> ${libro.nombre}</a><br/>
-              <span class="autor">${libro.autor}</span>
-            </div>
-            ${
-              libro.prestado
-                ? `<span class="prestado">Prestado a ${libro.prestado}</span>`
-                : ""
-            }
-          </div>`;
+    <div class="faltante">
+      <div class="info">
+        <a href="${link}" target="_blank"><strong>${libro.numero}.</strong> ${
+          libro.nombre
+        }</a><br/>
+        <span class="autor">${libro.autor}</span>
+      </div>
+      ${
+        libro.prestado
+          ? `<span class="prestado">Prestado a ${libro.prestado}</span>`
+          : ""
       }
-    
+    </div>`;
+      }
+
       cargarCatalogo();
+
+      function scrollAFaltantes() {
+        document
+          .getElementById("faltantes")
+          .scrollIntoView({ behavior: "smooth" });
+      }
+
+      function manejarCambioTamano(e) {
+        const size = e.target.value;
+        document.body.classList.remove(
+          "tamano-grande",
+          "tamano-mediano",
+          "tamano-pequeno"
+        );
+        document.body.classList.add("tamano-" + size);
+      }
+
+      // Aplicar tamaño inicial al cargar
+      document.addEventListener("DOMContentLoaded", () => {
+        const select = document.getElementById("selectorTamano");
+        if (select) manejarCambioTamano({ target: select });
+      });
+
+      document
+        .getElementById("irAFaltantes")
+        .addEventListener("click", scrollAFaltantes);
+      document
+        .getElementById("selectorTamano")
+        .addEventListener("change", manejarCambioTamano);
     </script>
   </body>
 </html>
