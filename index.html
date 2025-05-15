@@ -266,6 +266,24 @@
         align-items: flex-start;
         margin-bottom: 0.5rem;
       }*/
+
+      footer {
+        margin-top: 4rem;
+        text-align: center;
+        font-family: "Noto Serif JP", serif;
+        color: var(--rojo);
+        font-weight: 300;
+        font-size: 0.9rem;
+      }
+
+      footer a {
+        color: var(--rojo);
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
     </style>
   </head>
   <body>
@@ -310,6 +328,12 @@
     <section>
       <div class="faltantes" id="faltantes"></div>
     </section>
+
+    <footer>
+      <p class="firma">
+        @<a href="https://meowrhino.neocities.org" target="_blank">meowrhino</a>
+      </p>
+    </footer>
 
     <script>
       async function cargarCatalogo() {
