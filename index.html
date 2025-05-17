@@ -1,265 +1,266 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Biblioteca Atalanta</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Noto+Sans+JP:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      :root {
-        --rojo: #c0392b;
-        --azul: #00132b;
-        --fondo: #0c0f1a;
-      }
 
-      body {
-        margin: 0;
-        padding: 2rem;
-        font-family: "Noto Serif JP", serif;
-        background: var(--fondo);
-        color: var(--rojo);
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biblioteca Atalanta</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Noto+Sans+JP:wght@300&display=swap"
+    rel="stylesheet" />
+  <style>
+    :root {
+      --rojo: #c0392b;
+      --azul: #00132b;
+      --fondo: #0c0f1a;
+    }
 
-      h1,
-      h2 {
-        text-align: center;
-        font-weight: 200;
-        color: var(--rojo);
-      }
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: "Noto Serif JP", serif;
+      background: var(--fondo);
+      color: var(--rojo);
+    }
 
-      section {
-        max-width: 1200px; /* o 1600px si prefieres más ancho */
-        margin: 0 auto 3rem auto;
-        padding: 0 1rem;
-      }
+    h1,
+    h2 {
+      text-align: center;
+      font-weight: 200;
+      color: var(--rojo);
+    }
 
-      .filtros {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        margin-bottom: 2rem;
-      }
+    section {
+      max-width: 1200px;
+      /* o 1600px si prefieres más ancho */
+      margin: 0 auto 3rem auto;
+      padding: 0 1rem;
+    }
 
-      .filtros select {
-        background: var(--azul);
-        color: var(--rojo);
-        border: none;
-        padding: 0.3rem 0.6rem;
-        font-family: inherit;
-        font-size: 0.9rem;
-        border-radius: 0;
-        cursor: pointer;
-        transition: all 0.2s ease;
-      }
+    .filtros {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-bottom: 2rem;
+    }
 
-      .filtros select:hover {
-        color: white;
-        border-bottom: 1px solid white;
-      }
+    .filtros select {
+      background: var(--azul);
+      color: var(--rojo);
+      border: none;
+      padding: 0.3rem 0.6rem;
+      font-family: inherit;
+      font-size: 0.9rem;
+      border-radius: 0;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
 
-      .libros {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1.5rem;
-        margin-top: 2rem;
-        justify-content: center;
-      }
+    .filtros select:hover {
+      color: white;
+      border-bottom: 1px solid white;
+    }
 
-      .libro {
-        width: 180px;
-        background: var(--azul);
-        padding: 1rem;
-        border-radius: 2px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        position: relative;
-      }
+    .libros {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 2rem;
+      justify-content: center;
+    }
 
-      .libro .numero {
-        position: absolute;
-        top: -1.35rem;
-        left: 0.5rem;
-        font-size: 1.5rem;
-        color: var(--rojo);
-        font-family: "Noto Sans JP", sans-serif;
-        z-index: 1;
-      }
+    .libro {
+      width: 180px;
+      background: var(--azul);
+      padding: 1rem;
+      border-radius: 2px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      position: relative;
+    }
 
-      .libro img {
-        width: 100%;
-        margin-bottom: 0.5rem;
-        transition: 0.3s ease;
-      }
+    .libro .numero {
+      position: absolute;
+      top: -1.35rem;
+      left: 0.5rem;
+      font-size: 1.5rem;
+      color: var(--rojo);
+      font-family: "Noto Sans JP", sans-serif;
+      z-index: 1;
+    }
 
-      .libro a {
-        color: inherit;
-        text-decoration: none;
-        display: block;
-        position: relative;
-      }
+    .libro img {
+      width: 100%;
+      margin-bottom: 0.5rem;
+      transition: 0.3s ease;
+    }
 
-      .libro a::after {
-        content: "VER EN PÁGINA OFICIAL ATALANTA";
-        color: white;
-        font-size: 0.7rem;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        opacity: 0;
-        pointer-events: none;
-        transition: 0.3s ease;
-      }
+    .libro a {
+      color: inherit;
+      text-decoration: none;
+      display: block;
+      position: relative;
+    }
 
-      .libro a:hover img {
-        filter: brightness(0.6);
-      }
+    .libro a::after {
+      content: "VER EN PÁGINA OFICIAL ATALANTA";
+      color: white;
+      font-size: 0.7rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s ease;
+    }
 
-      .libro a:hover::after {
-        opacity: 1;
-      }
+    .libro a:hover img {
+      filter: brightness(0.6);
+    }
 
-      .libro h3 {
-        font-size: 1rem;
-        margin: 0.5rem 0 0.2rem;
-        color: white;
-        font-weight: 200;
-      }
+    .libro a:hover::after {
+      opacity: 1;
+    }
 
-      .libro p {
-        font-size: 0.8rem;
-        margin: 0;
-        color: var(--rojo);
-        font-weight: 400;
-      }
+    .libro h3 {
+      font-size: 1rem;
+      margin: 0.5rem 0 0.2rem;
+      color: white;
+      font-weight: 200;
+    }
 
-      .libro.escrito h3::after {
-        content: " ✎";
-        color: var(--rojo);
-      }
+    .libro p {
+      font-size: 0.8rem;
+      margin: 0;
+      color: var(--rojo);
+      font-weight: 400;
+    }
 
-      .faltantes {
-        font-size: 0.9rem;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        background: none;
-        padding: 0 1rem;
-        border-radius: 2px;
-      }
+    .libro.escrito h3::after {
+      content: " ✎";
+      color: var(--rojo);
+    }
 
-      .faltante {
-        padding: 0.8rem 1rem;
-        background: var(--azul);
-        border-left: 2px solid var(--rojo);
-        border-radius: 2px;
-      }
+    .faltantes {
+      font-size: 0.9rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      background: none;
+      padding: 0 1rem;
+      border-radius: 2px;
+    }
 
-      .faltante .info a {
-        color: white;
-        text-decoration: none;
-        font-size: 0.95rem;
-        transition: all 0.3s ease;
-      }
+    .faltante {
+      padding: 0.8rem 1rem;
+      background: var(--azul);
+      border-left: 2px solid var(--rojo);
+      border-radius: 2px;
+    }
 
-      .faltante .info a:hover {
-        color: var(--rojo);
-        text-decoration: underline;
-      }
+    .faltante .info a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+    }
 
-      .faltante .autor {
-        display: block;
-        margin-top: 0.2rem;
-        font-size: 0.85rem;
-        color: var(--rojo);
-        font-weight: 400;
-      }
+    .faltante .info a:hover {
+      color: var(--rojo);
+      text-decoration: underline;
+    }
 
-      .prestado {
-        font-style: italic;
-        color: var(--rojo);
-        font-size: 0.85rem;
-        margin-top: 0.3rem;
-        display: block;
-      }
+    .faltante .autor {
+      display: block;
+      margin-top: 0.2rem;
+      font-size: 0.85rem;
+      color: var(--rojo);
+      font-weight: 400;
+    }
 
-      .grupo {
-        margin-bottom: 2rem;
-        transition: all 0.5s ease;
-        opacity: 1;
-        transform: translateY(0);
-      }
+    .prestado {
+      font-style: italic;
+      color: var(--rojo);
+      font-size: 0.85rem;
+      margin-top: 0.3rem;
+      display: block;
+    }
 
-      .tamano-grande .libro {
-        width: 180px;
-      }
+    .grupo {
+      margin-bottom: 2rem;
+      transition: all 0.5s ease;
+      opacity: 1;
+      transform: translateY(0);
+    }
 
-      .tamano-mediano .libro {
-        width: 140px;
-      }
+    .tamano-grande .libro {
+      width: 180px;
+    }
 
-      .tamano-pequeno .libro {
-        width: 110px;
-      }
+    .tamano-grande .libro h3 {
+      font-size: 1rem;
+    }
 
-      .tamano-grande .libro h3 {
-        font-size: 1rem;
-      }
+    .tamano-grande .libro p {
+      font-size: 0.8rem;
+    }
 
-      .tamano-mediano .libro h3 {
-        font-size: 0.9rem;
-      }
+    .tamano-mediano .libro {
+      width: 140px;
+    }
 
-      .tamano-pequeno .libro h3 {
-        font-size: 0.8rem;
-      }
+    .tamano-mediano .libro h3 {
+      font-size: 0.9rem;
+    }
 
-      .tamano-grande .libro p {
-        font-size: 0.8rem;
-      }
+    .tamano-mediano .libro p {
+      font-size: 0.7rem;
+    }
 
-      .tamano-mediano .libro p {
-        font-size: 0.7rem;
-      }
+    .tamano-pequeno .libro {
+      width: 110px;
+    }
 
-      .tamano-pequeno .libro p {
-        font-size: 0.6rem;
-      }
+    .tamano-pequeno .libro h3 {
+      font-size: 0.8rem;
+    }
 
-      .resumen {
-        margin-bottom: 1rem;
-        font-size: 0.9rem;
-        text-align: right;
-        color: white;
-      }
+    .tamano-pequeno .libro p {
+      font-size: 0.6rem;
+    }
 
-      .boton-faltantes {
-        margin-top: 1rem;
-        background: none;
-        border: none;
-        color: var(--rojo);
-        padding: 0.4rem 0.8rem;
-        cursor: pointer;
-        font-family: inherit;
-        font-size: 0.8rem;
-      }
+    .resumen {
+      margin-bottom: 1rem;
+      font-size: 0.9rem;
+      text-align: right;
+      color: white;
+    }
 
-      .libro {
-        transition: width 0.3s ease;
-      }
+    .boton-faltantes {
+      margin-top: 1rem;
+      background: none;
+      border: none;
+      color: var(--rojo);
+      padding: 0.4rem 0.8rem;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 0.8rem;
+    }
 
-      .libro h3,
-      .libro p {
-        transition: font-size 0.3s ease;
-      }
+    .libro {
+      transition: width 0.3s ease;
+    }
 
-      /*
+    .libro h3,
+    .libro p {
+      transition: font-size 0.3s ease;
+    }
+
+    /*
       .campo-filtro {
         display: flex;
         flex-direction: column;
@@ -267,186 +268,187 @@
         margin-bottom: 0.5rem;
       }*/
 
-      footer {
-        margin-top: 4rem;
-        text-align: center;
-        font-family: "Noto Serif JP", serif;
-        color: var(--rojo);
-        font-weight: 300;
-        font-size: 0.9rem;
-      }
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+      font-family: "Noto Serif JP", serif;
+      color: var(--rojo);
+      font-weight: 300;
+      font-size: 0.9rem;
+    }
 
-      footer a {
-        color: var(--rojo);
-        text-decoration: none;
-      }
+    footer a {
+      color: var(--rojo);
+      text-decoration: none;
+    }
 
-      footer a:hover {
-        text-decoration: underline;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Biblioteca Atalanta</h1>
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
 
-    <section>
-      <div class="filtros">
-        <div class="campo-filtro">
-          <label for="selectorOrdenar">Ordenar por:</label>
-          <select id="selectorOrdenar" name="ordenar">
-            <option value="numero">Número</option>
-            <option value="autor">Autor</option>
-          </select>
-        </div>
+<body>
+  <h1>Biblioteca Atalanta</h1>
 
-        <div class="campo-filtro">
-          <label for="selectorAgrupar">Agrupar por:</label>
-          <select id="selectorAgrupar" name="agrupar">
-            <option value="ninguno">Ninguno</option>
-            <option value="coleccion">Colección</option>
-            <option value="autor">Autor</option>
-          </select>
-        </div>
-
-        <div class="campo-filtro">
-          <label for="selectorTamano">Tamaño:</label>
-          <select id="selectorTamano" name="tamano">
-            <option value="grande">Grande</option>
-            <option value="mediano">Mediano</option>
-            <option value="pequeño">Pequeño</option>
-          </select>
-        </div>
-
-        <button id="irAFaltantes" class="boton-faltantes">
-          Ver libros no disponibles ↓
-        </button>
+  <section>
+    <div class="filtros">
+      <div class="campo-filtro">
+        <label for="selectorOrdenar">Ordenar por:</label>
+        <select id="selectorOrdenar" name="ordenar">
+          <option value="numero">Número</option>
+          <option value="autor">Autor</option>
+        </select>
       </div>
 
-      <div class="libros" id="libros"></div>
-    </section>
+      <div class="campo-filtro">
+        <label for="selectorAgrupar">Agrupar por:</label>
+        <select id="selectorAgrupar" name="agrupar">
+          <option value="ninguno">Ninguno</option>
+          <option value="coleccion">Colección</option>
+          <option value="autor">Autor</option>
+        </select>
+      </div>
 
-    <section>
-      <div class="faltantes" id="faltantes"></div>
-    </section>
+      <div class="campo-filtro">
+        <label for="selectorTamano">Tamaño:</label>
+        <select id="selectorTamano" name="tamano">
+          <option value="grande">Grande</option>
+          <option value="mediano">Mediano</option>
+          <option value="pequeno">Pequeño</option>
+        </select>
+      </div>
 
-    <footer>
-      <p class="firma">
-        @<a href="https://meowrhino.neocities.org" target="_blank">meowrhino</a>
-      </p>
-    </footer>
+      <button id="irAFaltantes" class="boton-faltantes">
+        Ver libros no disponibles ↓
+      </button>
+    </div>
 
-    <script>
-      async function cargarCatalogo() {
-        try {
-          const res = await fetch("data/catalogo.json");
-          const json = await res.json();
-          window.catalogo = json.catalogo;
+    <div class="libros" id="libros"></div>
+  </section>
 
-          document
-            .getElementById("selectorOrdenar")
-            .addEventListener("change", () => {
-              renderAgrupado();
-            });
-          document
-            .getElementById("selectorAgrupar")
-            .addEventListener("change", () => {
-              renderAgrupado();
-            });
+  <section>
+    <div class="faltantes" id="faltantes"></div>
+  </section>
 
-          renderAgrupado();
-        } catch (err) {
-          console.error("Error cargando catálogo:", err);
-        }
+  <footer>
+    <p class="firma">
+      @<a href="https://meowrhino.neocities.org" target="_blank">meowrhino</a>
+    </p>
+  </footer>
+
+  <script>
+    async function cargarCatalogo() {
+      try {
+        const res = await fetch("data/catalogo.json");
+        const json = await res.json();
+        window.catalogo = json.catalogo;
+
+        document
+          .getElementById("selectorOrdenar")
+          .addEventListener("change", () => {
+            renderAgrupado();
+          });
+        document
+          .getElementById("selectorAgrupar")
+          .addEventListener("change", () => {
+            renderAgrupado();
+          });
+
+        renderAgrupado();
+      } catch (err) {
+        console.error("Error cargando catálogo:", err);
       }
+    }
 
-      function agruparPor(lista, campo) {
-        return lista.reduce((acc, l) => {
-          const key = l[campo] || "Sin especificar";
-          if (!acc[key]) acc[key] = [];
-          acc[key].push(l);
-          return acc;
-        }, {});
+    function agruparPor(lista, campo) {
+      return lista.reduce((acc, l) => {
+        const key = l[campo] || "Sin especificar";
+        if (!acc[key]) acc[key] = [];
+        acc[key].push(l);
+        return acc;
+      }, {});
+    }
+
+    function limpiarContenedores() {
+      document.getElementById("libros").innerHTML = "";
+      document.getElementById("faltantes").innerHTML = "";
+    }
+
+    function renderAgrupado() {
+      limpiarContenedores();
+
+      const criterioOrden = document.getElementById("selectorOrdenar").value;
+      const criterioAgrupar =
+        document.getElementById("selectorAgrupar").value;
+
+      const disponibles = [...window.catalogo.filter((l) => l.disponible)];
+      const noDisponibles = [...window.catalogo.filter((l) => !l.disponible)];
+
+      disponibles.sort((a, b) => {
+        if (criterioOrden === "numero") return a.numero - b.numero;
+        return a.autor.localeCompare(b.autor);
+      });
+
+      noDisponibles.sort((a, b) => {
+        if (criterioOrden === "numero") return a.numero - b.numero;
+        return a.autor.localeCompare(b.autor);
+      });
+
+      // Mostrar resumen ARRIBA del contenedor de no disponibles
+      const total = window.catalogo.length;
+      const faltan = noDisponibles.length;
+      const contFaltantes = document.getElementById("faltantes");
+      const resumen = document.createElement("div");
+      resumen.className = "resumen";
+
+      const tengo = disponibles.length;
+      resumen.innerText = `${tengo} / ${total} libros disponibles`;
+
+      /*resumen.innerText = `${faltan} / ${total} libros no disponibles`;*/
+      contFaltantes.appendChild(resumen);
+
+      if (criterioAgrupar === "ninguno") {
+        renderGrupo({ "": disponibles }, "libros", true);
+        renderGrupo({ "": noDisponibles }, "faltantes", false);
+      } else {
+        const disponiblesAgrupados = agruparPor(disponibles, criterioAgrupar);
+        const noDisponiblesAgrupados = agruparPor(
+          noDisponibles,
+          criterioAgrupar
+        );
+
+        renderGrupo(disponiblesAgrupados, "libros", true);
+        renderGrupo(noDisponiblesAgrupados, "faltantes", false);
       }
+    }
 
-      function limpiarContenedores() {
-        document.getElementById("libros").innerHTML = "";
-        document.getElementById("faltantes").innerHTML = "";
+    function renderGrupo(grupos, contId, disponibles) {
+      const cont = document.getElementById(contId);
+      const claves = Object.keys(grupos).sort((a, b) => a.localeCompare(b));
+
+      for (const grupo of claves) {
+        const grupoDiv = document.createElement("div");
+        grupoDiv.className = "grupo";
+        if (grupo) grupoDiv.innerHTML = `<h3>${grupo}</h3>`;
+
+        const librosHTML = disponibles
+          ? `<div class="libros">${grupos[grupo]
+            .map(renderLibroDisponible)
+            .join("")}</div>`
+          : grupos[grupo].map(renderLibroNoDisponible).join("");
+
+        grupoDiv.innerHTML += librosHTML;
+        cont.appendChild(grupoDiv);
       }
+    }
 
-      function renderAgrupado() {
-        limpiarContenedores();
+    function renderLibroDisponible(libro) {
+      const link = libro.link || "#";
+      const portada = libro.portada || "img/default.jpg";
+      const alt = `Portada del libro '${libro.nombre}' de ${libro.autor}`;
 
-        const criterioOrden = document.getElementById("selectorOrdenar").value;
-        const criterioAgrupar =
-          document.getElementById("selectorAgrupar").value;
-
-        const disponibles = [...window.catalogo.filter((l) => l.disponible)];
-        const noDisponibles = [...window.catalogo.filter((l) => !l.disponible)];
-
-        disponibles.sort((a, b) => {
-          if (criterioOrden === "numero") return a.numero - b.numero;
-          return a.autor.localeCompare(b.autor);
-        });
-
-        noDisponibles.sort((a, b) => {
-          if (criterioOrden === "numero") return a.numero - b.numero;
-          return a.autor.localeCompare(b.autor);
-        });
-
-        // Mostrar resumen ARRIBA del contenedor de no disponibles
-        const total = window.catalogo.length;
-        const faltan = noDisponibles.length;
-        const contFaltantes = document.getElementById("faltantes");
-        const resumen = document.createElement("div");
-        resumen.className = "resumen";
-
-        const tengo = disponibles.length;
-        resumen.innerText = `${tengo} / ${total} libros disponibles`;
-
-        /*resumen.innerText = `${faltan} / ${total} libros no disponibles`;*/
-        contFaltantes.appendChild(resumen);
-
-        if (criterioAgrupar === "ninguno") {
-          renderGrupo({ "": disponibles }, "libros", true);
-          renderGrupo({ "": noDisponibles }, "faltantes", false);
-        } else {
-          const disponiblesAgrupados = agruparPor(disponibles, criterioAgrupar);
-          const noDisponiblesAgrupados = agruparPor(
-            noDisponibles,
-            criterioAgrupar
-          );
-
-          renderGrupo(disponiblesAgrupados, "libros", true);
-          renderGrupo(noDisponiblesAgrupados, "faltantes", false);
-        }
-      }
-
-      function renderGrupo(grupos, contId, disponibles) {
-        const cont = document.getElementById(contId);
-        const claves = Object.keys(grupos).sort((a, b) => a.localeCompare(b));
-
-        for (const grupo of claves) {
-          const grupoDiv = document.createElement("div");
-          grupoDiv.className = "grupo";
-          if (grupo) grupoDiv.innerHTML = `<h3>${grupo}</h3>`;
-
-          const librosHTML = disponibles
-            ? `<div class="libros">${grupos[grupo]
-                .map(renderLibroDisponible)
-                .join("")}</div>`
-            : grupos[grupo].map(renderLibroNoDisponible).join("");
-
-          grupoDiv.innerHTML += librosHTML;
-          cont.appendChild(grupoDiv);
-        }
-      }
-
-      function renderLibroDisponible(libro) {
-        const link = libro.link || "#";
-        const portada = libro.portada || "img/default.jpg";
-        const alt = `Portada del libro '${libro.nombre}' de ${libro.autor}`;
-
-        return `
+      return `
     <div class="libro${libro.escrito ? " escrito" : ""}">
       <div class="numero">${libro.numero}</div>
       <a href="${link}" target="_blank">
@@ -455,56 +457,55 @@
         <p>${libro.autor}</p>
       </a>
     </div>`;
-      }
+    }
 
-      function renderLibroNoDisponible(libro) {
-        const link = libro.link || "#";
-        return `
+    function renderLibroNoDisponible(libro) {
+      const link = libro.link || "#";
+      return `
     <div class="faltante">
       <div class="info">
-        <a href="${link}" target="_blank"><strong>${libro.numero}.</strong> ${
-          libro.nombre
+        <a href="${link}" target="_blank"><strong>${libro.numero}.</strong> ${libro.nombre
         }</a><br/>
         <span class="autor">${libro.autor}</span>
       </div>
-      ${
-        libro.prestado
+      ${libro.prestado
           ? `<span class="prestado">Prestado a ${libro.prestado}</span>`
           : ""
-      }
+        }
     </div>`;
-      }
+    }
 
-      cargarCatalogo();
+    cargarCatalogo();
 
-      function scrollAFaltantes() {
-        document
-          .getElementById("faltantes")
-          .scrollIntoView({ behavior: "smooth" });
-      }
-
-      function manejarCambioTamano(e) {
-        const size = e.target.value;
-        document.body.classList.remove(
-          "tamano-grande",
-          "tamano-mediano",
-          "tamano-pequeno"
-        );
-        document.body.classList.add("tamano-" + size);
-      }
-
-      // Aplicar tamaño inicial al cargar
-      document.addEventListener("DOMContentLoaded", () => {
-        const select = document.getElementById("selectorTamano");
-        if (select) manejarCambioTamano({ target: select });
-      });
-
+    function scrollAFaltantes() {
       document
-        .getElementById("irAFaltantes")
-        .addEventListener("click", scrollAFaltantes);
-      document
-        .getElementById("selectorTamano")
-        .addEventListener("change", manejarCambioTamano);
-    </script>
-  </body>
+        .getElementById("faltantes")
+        .scrollIntoView({ behavior: "smooth" });
+    }
+
+    function manejarCambioTamano(e) {
+      const size = e.target.value;
+      document.body.classList.remove(
+        "tamano-grande",
+        "tamano-mediano",
+        "tamano-pequeno"
+      );
+      document.body.classList.add("tamano-" + size);
+    }
+
+    // Aplicar tamaño inicial al cargar
+    document.addEventListener("DOMContentLoaded", () => {
+      const select = document.getElementById("selectorTamano");
+      if (select) manejarCambioTamano({ target: select });
+    });
+
+    document
+      .getElementById("irAFaltantes")
+      .addEventListener("click", scrollAFaltantes);
+    document
+      .getElementById("selectorTamano")
+      .addEventListener("change", manejarCambioTamano);
+  </script>
+</body>
+
 </html>
