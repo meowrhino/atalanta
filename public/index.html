@@ -212,6 +212,12 @@
     <script>
       let datos = [];
 
+      function esc(str) {
+        const d = document.createElement("div");
+        d.textContent = str;
+        return d.innerHTML;
+      }
+
       async function cargarCatalogo() {
         try {
           const res = await fetch("/catalogo");
@@ -230,26 +236,24 @@
           const div = document.createElement("div");
           div.className = "item";
 
+          const colecciones = ["LIBER NATURAE", "MEMORIA MUNDI", "IMAGINATIO VERA", "ARS BREVIS"];
+          const opcionesCol = '<option value="">Fuera de colección</option>' +
+            colecciones.map(c => '<option value="' + c + '"' + (item.coleccion === c ? " selected" : "") + '>' + c + '</option>').join("");
+
           const html = [
-            '<div class="item-number">' + (i + 1) + "</div>",
+            '<div class="item-number">' + item.numero + "</div>",
             "<label>Nombre</label>",
-            '<input type="text" value="' + item.nombre + '" onchange="datos[' + i + '].nombre = this.value">',
+            '<input type="text" value="' + esc(item.nombre) + '" onchange="datos[' + i + '].nombre = this.value">',
             "<label>Autor</label>",
-            '<input type="text" value="' + item.autor + '" onchange="datos[' + i + '].autor = this.value">',
+            '<input type="text" value="' + esc(item.autor) + '" onchange="datos[' + i + '].autor = this.value">',
             "<label>Colección</label>",
-            '<select onchange="datos[' + i + '].coleccion = this.value">',
-            '<option value="">Fuera de colección</option>',
-            '<option value="LIBER NATURAE"' + (item.coleccion === "LIBER NATURAE" ? " selected" : "") + '>LIBER NATURAE</option>',
-            '<option value="MEMORIA MUNDI"' + (item.coleccion === "MEMORIA MUNDI" ? " selected" : "") + '>MEMORIA MUNDI</option>',
-            '<option value="IMAGINATIO VERA"' + (item.coleccion === "IMAGINATIO VERA" ? " selected" : "") + '>IMAGINATIO VERA</option>',
-            '<option value="ARS BREVIS"' + (item.coleccion === "ARS BREVIS" ? " selected" : "") + '>ARS BREVIS</option>',
-            "</select>",
+            '<select onchange="datos[' + i + '].coleccion = this.value">' + opcionesCol + "</select>",
             "<label>Emoji</label>",
-            '<input type="text" value="' + item.emoji + '" onchange="datos[' + i + '].emoji = this.value">',
+            '<input type="text" value="' + esc(item.emoji) + '" onchange="datos[' + i + '].emoji = this.value">',
             "<label>Link</label>",
-            '<input type="text" value="' + item.link + '" style="flex:1" onchange="datos[' + i + '].link = this.value">',
+            '<input type="text" value="' + esc(item.link) + '" style="flex:1" onchange="datos[' + i + '].link = this.value">',
             "<label>Portada</label>",
-            '<input type="text" value="' + item.portada + '" style="flex:1" onchange="datos[' + i + '].portada = this.value">',
+            '<input type="text" value="' + esc(item.portada) + '" style="flex:1" onchange="datos[' + i + '].portada = this.value">',
             '<label><input type="checkbox" ' + (item.escrito ? "checked" : "") + ' onchange="datos[' + i + '].escrito = this.checked"> Escrito</label>',
             '<label><input type="checkbox" ' + (item.disponible ? "checked" : "") + ' onchange="datos[' + i + '].disponible = this.checked"> Disponible</label>',
           ].join("");

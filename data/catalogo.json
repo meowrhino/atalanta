@@ -1847,6 +1847,50 @@
       "escrito": false,
       "disponible": false,
       "emoji": ""
+    },
+    {
+      "numero": 169,
+      "nombre": "Los árboles en lo visible e invisible",
+      "autor": "Ernst Zürcher",
+      "coleccion": "LIBER NATURAE",
+      "escrito": false,
+      "disponible": true,
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/los-arboles-en-lo-visible-y-lo-invisible/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Arboles-416x645.jpg"
+    },
+    {
+      "numero": 170,
+      "nombre": "Catafalco",
+      "autor": "Peter Kingsley",
+      "coleccion": "MEMORIA MUNDI",
+      "escrito": false,
+      "disponible": true,
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/catafalco/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Plantilla-portada-web-Catafalco-324x509.jpg"
+    },
+    {
+      "numero": 171,
+      "nombre": "Tsimtsum",
+      "autor": "Christoph Schulte",
+      "coleccion": "MEMORIA MUNDI",
+      "escrito": false,
+      "disponible": true,
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/tsimtsum/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-web-Tsimtsum-416x645.png"
+    },
+    {
+      "numero": 172,
+      "nombre": "Zohar. Libro del esplendor",
+      "autor": "Anónimo",
+      "coleccion": "MEMORIA MUNDI",
+      "escrito": false,
+      "disponible": true,
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/zohar-libro-del-esplendor/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Zohar-416x645.png"
     }
   ]
 }

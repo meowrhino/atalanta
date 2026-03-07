@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 const PORT = process.env.PORT || 10000;
 
-app.use(express.json());
+app.use(express.json({ limit: '1mb' }));
 app.use(express.static('public'));
 
 const CATALOGO_PATH = path.join(__dirname, 'data', 'catalogo.json');
@@ -20,14 +20,10 @@ app.get('/catalogo', (req, res) => {
 app.post('/catalogo', async (req, res) => {
   const jsonData = req.body;
   try {
-    fs.writeFileSync(CATALOGO_PATH, JSON.stringify(jsonData, null, 2));
-    console.log("✔ Catálogo actualizado localmente");
-
     const token = process.env.GH_TOKEN;
     const gitUrl = `https://${token}@github.com/meowrhino/atalanta.git`;
     const tmpDir = '/tmp/atalanta-sync';
 
-    // 🧹 Borrar carpeta si ya existe
     if (fs.existsSync(tmpDir)) {
       fs.rmSync(tmpDir, { recursive: true, force: true });
     }
@@ -46,7 +42,10 @@ app.post('/catalogo', async (req, res) => {
     await repo.commit(`actualizado desde interfaz de stock (${new Date().toISOString()})`);
     await repo.push('origin', 'main');
 
-    console.log("✔ Cambios enviados a GitHub");
+    // Solo escribir local si el push fue bien
+    fs.writeFileSync(CATALOGO_PATH, JSON.stringify(jsonData, null, 2));
+
+    console.log("✔ Catálogo actualizado y enviado a GitHub");
     res.sendStatus(200);
   } catch (err) {
     console.error("❌ Error actualizando el catálogo:", err);
