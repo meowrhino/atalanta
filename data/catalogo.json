@@ -908,7 +908,7 @@
       "autor": "Lama Anagarika Govinda",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/la-senda-de-las-nubes-blancas/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/83-Govinda-arrastrado1-324x509.jpg"
@@ -1612,7 +1612,7 @@
       "autor": "Joseph Campbell",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-extasis-del-ser/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Plantilla-portada-web-Extasis-del-ser-324x503.jpg"
