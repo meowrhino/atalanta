@@ -1029,7 +1029,7 @@
       "autor": "Arthur Zajonc",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/capturar-la-luz/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/zajonc-luz-324x509.jpg"
