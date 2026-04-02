@@ -512,7 +512,7 @@
       "autor": "Vālmīki",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/ramaiana/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/47-Portada_Ramaiana-324x509.jpg"
@@ -1876,7 +1876,7 @@
       "autor": "Christoph Schulte",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/tsimtsum/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-web-Tsimtsum-416x645.png"
@@ -1887,7 +1887,7 @@
       "autor": "Anónimo",
       "coleccion": "MEMORIA MUNDI",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/zohar-libro-del-esplendor/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Zohar-416x645.png"
