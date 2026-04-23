@@ -1891,6 +1891,17 @@
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/zohar-libro-del-esplendor/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Zohar-416x645.png"
+    },
+    {
+      "numero": 173,
+      "nombre": "Ātman. Presencia del origen",
+      "autor": "Juan Arnau",
+      "coleccion": "MEMORIA MUNDI",
+      "escrito": false,
+      "disponible": true,
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/atman-presencia-del-origen/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-web-Atman.png"
     }
   ]
 }
