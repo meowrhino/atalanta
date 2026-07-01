@@ -1579,7 +1579,7 @@
       "autor": "Arthur Firstenberg",
       "coleccion": "LIBER NATURAE",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/el-arcoiris-invisible/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Plantilla-portada-web-Arcoiris-324x503.jpg"
