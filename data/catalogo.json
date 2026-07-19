@@ -622,7 +622,7 @@
       "autor": "Inka Martí",
       "coleccion": "IMAGINATIO VERA",
       "escrito": false,
-      "disponible": false,
+      "disponible": true,
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/cuaderno-de-noche/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/57-marti-cuaderno-portada-buena--324x509.jpg"
@@ -1902,6 +1902,28 @@
       "emoji": "",
       "link": "https://www.edicionesatalanta.com/catalogo/atman-presencia-del-origen/",
       "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-web-Atman.png"
+    },
+    {
+      "numero": 174,
+      "nombre": "Carbono. El libro de la vida",
+      "autor": "Paul Hawken",
+      "coleccion": "LIBER NATURAE",
+      "escrito": false,
+      "disponible": false,
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/carbono-el-libro-de-la-vida/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-web-Carbono-324x503.jpg"
+    },
+    {
+      "numero": 175,
+      "nombre": "La psique en la antigüedad",
+      "autor": "Edward F. Edinger",
+      "coleccion": "MEMORIA MUNDI",
+      "escrito": false,
+      "disponible": true,
+      "emoji": "",
+      "link": "https://www.edicionesatalanta.com/catalogo/la-psique-en-la-antiguedad/",
+      "portada": "https://www.edicionesatalanta.com/wp-content/uploads/Portada-Web-Psique-antiguedad-324x503.jpg"
     }
   ]
 }
